@@ -1,9 +1,62 @@
-theme: jekyll-remote-theme
-#-theme-cayman
+#theme: jekyll-theme-cayman
 #remote_theme: mmistakes/minimal-mistakes
 #plugins:
 #  - jekyll-remote-theme
+#title: Yassine Nabou
+#description: >
+#  Welcome:
+
+---
+
+### **_config.yml**
+```yaml
+# Site settings
 title: Yassine Nabou
 description: >
-  Welcome:
+  Welcome to my personal website! I am a researcher focusing on optimization,
+  machine learning, and power systems.
+url: https://yassine-nabou.github.io
+baseurl: "" # Leave empty if deploying to the root of your domain.
+
+# Author information
+author:
+  name: "Yassine Nabou"
+  email: "your-email@example.com"
+  bio: "Ph.D. in Optimization and Data Science."
+  avatar: "/assets/images/avatar.jpg" # Optional profile picture.
+
+# Theme settings
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag # For better SEO.
+  - jekyll-sitemap # To generate a sitemap.
+
+# Social media links
+social_links:
+  - name: LinkedIn
+    url: https://linkedin.com/in/yassine-nabou
+    icon: fab fa-linkedin
+  - name: GitHub
+    url: https://github.com/Yassine-Nabou
+    icon: fab fa-github
+  - name: Twitter
+    url: https://twitter.com/your-twitter-handle
+    icon: fab fa-twitter
+
+# Navigation menu
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Publications"
+    url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+# SEO and analytics
+google_analytics: "UA-XXXXXXXXX-X" # Replace with your Google Analytics tracking ID.
 
