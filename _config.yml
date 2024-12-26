@@ -1,8 +1,7 @@
-#theme: jekyll-theme-cayman
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-remote-theme
-
+theme: jekyll-theme-cayman
+#remote_theme: mmistakes/minimal-mistakes
+#plugins:
+#  - jekyll-remote-theme
 title: Yassine Nabou
 description: >
   Welcome:
