@@ -1,4 +1,4 @@
-# Yassine Nabou's Personal Website
+# Yassine Nabou
 
 Welcome to the repository for my personal academic website! This site serves as a showcase of my research, projects, and achievements.
 
