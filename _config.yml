@@ -1,4 +1,10 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+
 title: Yassine Nabou
-description: Welcome to my personal web page:
-      I am yassine...
+description: >
+  Welcome:
+  I am Yassine...
+
