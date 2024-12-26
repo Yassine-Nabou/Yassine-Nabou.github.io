@@ -1,4 +1,4 @@
-#theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 #remote_theme: mmistakes/minimal-mistakes
 #plugins:
 #  - jekyll-remote-theme
@@ -22,11 +22,11 @@ author:
   avatar: "/assets/images/avatar.jpg" # Optional profile picture.
 
 # Theme settings
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag # For better SEO.
-  - jekyll-sitemap # To generate a sitemap.
+#remote_theme: mmistakes/minimal-mistakes
+#plugins:
+ # - jekyll-remote-theme
+  #- jekyll-seo-tag # For better SEO.
+  #- jekyll-sitemap # To generate a sitemap.
 
 # Social media links
 social_links:
