@@ -1,6 +1,6 @@
 # Yassine Nabou
 
-Welcome to the repository for my personal academic website! This site serves as a showcase of my research, projects, and achievements.
+I am a  research in Computational Mathematics with a focus on Numerical Optimization and Machine Learning. Currently I am a postdoctoral researcher at university of Helsinki, finland, working in the department of Mathematics and Statistics with Tuomo Valkonen.
 
 ## About the Website
 
