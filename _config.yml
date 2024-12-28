@@ -10,20 +10,8 @@ theme: jekyll-theme-cayman
 title: Yassine Nabou
 description: >
   Welcome to my personal website! 
-url: https://yassine-nabou.github.io
-baseurl: "" # Leave empty if deploying to the root of your domain.
-
 # Author information
 author:
   name: "Yassine Nabou"
-  email: "your-email@example.com"
+  email: "your-email@helsinki.fi"
   bio: "Ph.D. in Optimization and Data Science."
-  avatar: "/assets/images/avatar.jpg" # Optional profile picture.
-
-# Theme settings
-#remote_theme: mmistakes/minimal-mistakes
-#plugins:
- # - jekyll-remote-theme
-  #- jekyll-seo-tag # For better SEO.
-  #- jekyll-sitemap # To generate a sitemap.
-
