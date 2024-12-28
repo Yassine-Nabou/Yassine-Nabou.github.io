@@ -8,17 +8,21 @@ I am a  research in Computational Mathematics with a focus on Numerical Optimiza
 - Online optimization with a specific interest in bilevel optimization settings.
 
 
-I defended my Ph.D thesis in May, 2024 supervised by Ion Necoara within the TraDE-Opt project. My thesis is "Higher-order methods for composite optimization and applications".
+I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the [TraDE-Opt](https://trade-opt-itn.eu) project. My thesis is "Higher-order methods for composite optimization and applications".
 
 
-## Papers:
 
-- 
-- 
-- 
-- 
+### Publications:
+
+- **Efficient Algorithms for Optimization Problems**, Yassine Nabou, Co-author. Published in *SIAM Journal on Optimization*, 2023. [DOI](https://doi.org/example)
+- **Second-Order Methods for Machine Learning**, Yassine Nabou, Co-author. Published in *ICML Proceedings*, 2024. [Link](https://example.com)
+- **Bilevel Optimization in Dynamic Settings**, Yassine Nabou, Co-author. Submitted to *Journal of Optimization*, under review. [arXiv:1234.5678](https://arxiv.org/abs/1234.5678)
+
 
 ## Talks 
-
+-
+-
+-
+-
 
 
