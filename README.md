@@ -13,10 +13,12 @@ I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.
 
 
 ### Publications:
+- **Yassine Nabou**, Tuomo Valkonen, *...*,..., 2024.([pdf]()
+- **Yassine Nabou**, Ion Necoara, *Regularized higher-order Taylor approximation methods for composite nonlinear least-squares*, arxiv.
+- **Yassine Nabou**, Ion Necoara, *Moving higher-order Taylor approximations method for smooth constrained minimization problems*, arxiv, 2024.([pdf](arXiv preprint arXiv:2402.15022)
+- **Yassine Nabou**, Francois Glineur, and Ion Necoara, *Proximal gradient methods with inexact oracle of degree q for composite optimization*, Optimization Letters, 2024.([pdf](https://doi.org/10.1007/s11590-024-02118-9)
+- **Yassine Nabou**, Ion Necoara, *Efficiency of higher-order algorithms for minimizing composite functions*, Computational Optimization and Applications, 2024.([pdf](https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf)
 
-- **Efficient Algorithms for Optimization Problems**, Yassine Nabou, Co-author. Published in *SIAM Journal on Optimization*, 2023. [DOI](https://doi.org/example)
-- **Second-Order Methods for Machine Learning**, Yassine Nabou, Co-author. Published in *ICML Proceedings*, 2024. [Link](https://example.com)
-- **Bilevel Optimization in Dynamic Settings**, Yassine Nabou, Co-author. Submitted to *Journal of Optimization*, under review. [arXiv:1234.5678](https://arxiv.org/abs/1234.5678)
 
 
 ## Talks 
