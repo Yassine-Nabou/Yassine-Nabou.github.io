@@ -27,31 +27,3 @@ author:
   #- jekyll-seo-tag # For better SEO.
   #- jekyll-sitemap # To generate a sitemap.
 
-# Social media links
-social_links:
-  - name: LinkedIn
-    url: https://linkedin.com/in/yassine-nabou
-    icon: fab fa-linkedin
-  - name: GitHub
-    url: https://github.com/Yassine-Nabou
-    icon: fab fa-github
-  - name: Twitter
-    url: https://twitter.com/your-twitter-handle
-    icon: fab fa-twitter
-
-# Navigation menu
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Publications"
-    url: /publications/
-  - title: "Projects"
-    url: /projects/
-  - title: "Contact"
-    url: /contact/
-
-# SEO and analytics
-google_analytics: "UA-XXXXXXXXX-X" # Replace with your Google Analytics tracking ID.
-
