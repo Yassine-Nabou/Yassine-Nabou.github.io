@@ -3,16 +3,16 @@ title: "Welcome to my personal webpage!"
 name: "" 
 baseurl: ""  
 description: >
-    <div style="display: flex; align-items: center; margin: auto; line-height: 1.4; max-width: 700px;">
+    <div style="display: flex; align-items: center; margin: auto; line-height: 1.2; max-width: 700px;">
         <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 300px; height: 350px; border-radius: 60%; margin-right: 20px;">
-        <div style="text-align: right;">
+        <div style="text-align: left;">
             <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
             <p>Postdoctoral researcher</p>
             <p>Department of Mathematics and Statistics, <br> University of Helsinki, Finland</p>
             <p style="font-size: 14px;">
-                • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 14px;">yassine.nabou@helsinki.fi</a> <br>
-                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 14px;">Google Scholar</a> <br>
-                • <a href="https://www.linkedin.com/in/YourLinkedInProfile" target="_blank" style="color: #007acc; text-decoration: none; font-size: 14px;">LinkedIn</a>
+                • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 16px;">yassine.nabou@helsinki.fi</a> <br>
+                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">Google Scholar</a> <br>
+                • <a href="https://www.linkedin.com/in/YourLinkedInProfile" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">LinkedIn</a>
             </p>
         </div>
     </div>
