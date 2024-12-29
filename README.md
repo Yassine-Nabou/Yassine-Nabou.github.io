@@ -3,7 +3,7 @@ My main research is on numerical optimization: theory, algorithms, and applicati
 Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
 
-## Area of intrerest
+## Area of intrerest:
 I am broadly interested in exploring the following areas:
 - Optimization: Theory and algorithms with a focus on structure exploitation, sparsity, convexity, stochasticity, and low-rank optimization.
 - Development of efficient methods for convex and non-convex problem classes, including smooth and nonsmooth formulations.
