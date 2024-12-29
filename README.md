@@ -31,7 +31,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 - September 16, 2024: **Efficient Algorithms for composite problems with applications**, ESAT KU Leuven, invited by [Hakan Ergun](https://scholar.google.com/citations?user=EGUrHGsAAAAJ&hl=en), online.
 - January 23-26, 2024: **Moving higher-order Taylor approximations method for smooth constrained minimization problems**, Analysis and Potential, [website](http://imar.ro/~imar/2024/Conferinte/APBucur/Abstracts.pdf), Bucharest, Romania. 
 - August 24, 2023: **Higher-order algorithms for composition minimization problems**, MaLGa Machine Learning Genoa Center, Italy, invited by [Silvia Villa](https://dima.unige.it/~villa), online.
-- July 4-8, 2022:**Efficient optimization methods for complex systems**, Workshop on Algorithmic and Continuous Optimization ([website](https://trade-opt-itn.eu/workshop.html)), UCLouvain, Belgium.
+- July 4-8, 2022: **Efficient optimization methods for complex systems**, Workshop on Algorithmic and Continuous Optimization ([website](https://trade-opt-itn.eu/workshop.html)), UCLouvain, Belgium.
 
 ### Teaching experience:
 -
