@@ -1,0 +1,15 @@
+.description {
+    text-align: left;
+    color: #333; /* Replace with a color of your choice */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.description a {
+    color: #007acc; /* Replace with your desired link color */
+    text-decoration: none;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
