@@ -32,7 +32,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 - August 24, 2023: **Higher-order algorithms for composition minimization problems**, MaLGa Machine Learning Genoa Center, Italy, invited by [Silvia Villa](https://dima.unige.it/~villa), online.
 - July 4-8, 2022:**Efficient optimization methods for complex systems**, Workshop on Algorithmic and Continuous Optimization ([website](https://trade-opt-itn.eu/workshop.html)), UCLouvain, Belgium.
 
-###Teaching experience:
+### Teaching experience:
 -
 
 
