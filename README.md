@@ -10,7 +10,7 @@ I am broadly interested in exploring the following areas:
 - Second-order optimization techniques for machine learning and applications in power flow analysis, phase retrieval, and control problems.
 - Online optimization with a specific interest in bilevel optimization settings.
 
-I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the [TraDE-Opt](https://trade-opt-itn.eu) project. My thesis is "Higher-order methods for composite optimization and applications". 
+I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the Marie Skłodowska-Curie early stage research, [TraDE-Opt](https://trade-opt-itn.eu) project ESR 10. My thesis is "Higher-order methods for composite optimization and applications". 
 
 I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](https://www.uca.ma) in 2016. I obtained a MSc degree in Applied mathematics from [Faculty of Science and Technology](https://www.fsts.ac.ma) Settat, Morocco in 2018.
 
