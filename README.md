@@ -1,4 +1,6 @@
-I am a  research in Computational Mathematics with a focus on Numerical Optimization and Machine Learning. Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
+My main research is on numerical optimization: theory, algorithms, and applications. I am currently focusing on efficient methods (both deterministic and stochastic) for convex optimization and nonconvex optimization, with applications in machine learning, control, signal/image processing, engineering, and data science.
+
+Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
 
 ## Area of intrerest:
