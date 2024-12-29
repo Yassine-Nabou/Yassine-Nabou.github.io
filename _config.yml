@@ -4,15 +4,15 @@ name: ""
 baseurl: ""  
 description: >
     <div style="text-align: center; margin: auto; line-height: 1.8; max-width: 700px;">
+        <img src="assets/images/Yassine.jpg" alt="Yassine Nabou" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
         <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
         <p>Postdoctoral researcher</p>
         <p>Department of Mathematics and Statistics, <br> University of Helsinki, Finland</p>
-        <p style="font-size: 14px;"> <!-- Adjust font size here -->
+        <p style="font-size: 14px;">
             • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 14px;">yassine.nabou@helsinki.fi</a> <br>
             • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 14px;">Google Scholar</a> <br>
             • <a href="https://www.linkedin.com/in/YourLinkedInProfile" target="_blank" style="color: #007acc; text-decoration: none; font-size: 14px;">LinkedIn</a>
         </p>
     </div>
-
 
 
