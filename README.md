@@ -3,7 +3,8 @@ My main research is on numerical optimization: theory, algorithms, and applicati
 Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
 
-## Area of intrerest:
+## Area of intrerest
+I am broadly interested in exploring the following areas:
 - Optimization: Theory and algorithms with a focus on structure exploitation, sparsity, convexity, stochasticity, and low-rank optimization.
 - Development of efficient methods for convex and non-convex problem classes, including smooth and nonsmooth formulations.
 - Second-order optimization techniques for machine learning and applications in power flow analysis, phase retrieval, and control problems.
@@ -25,7 +26,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 ## Talks 
--
+- October 31, 2024: **Higher-Order Methods for Composite Optimization with Application**, [MOP](https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml) Research Seminar.  
 -
 -
 -
