@@ -4,7 +4,7 @@ name: ""
 baseurl: ""  
 description: >
     <img src="images/Yassine.jpg" alt="Profile Picture" style="width:250px; border-radius:50%;">
-    <div style="text-align: center; margin: auto; line-height: 1.8; max-width: 700px;">
+    <div style="text-align: left; margin: auto; line-height: 1.8; max-width: 700px;">
         <alt="Yassine Nabou" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
         <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
         <p>Postdoctoral researcher</p>
