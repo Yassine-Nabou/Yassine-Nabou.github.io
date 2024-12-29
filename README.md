@@ -1,4 +1,3 @@
-##Welcom!
 I am a  research in Computational Mathematics with a focus on Numerical Optimization and Machine Learning. Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
 
