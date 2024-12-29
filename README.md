@@ -1,4 +1,4 @@
-#Yassine Nabou
+##Yassine Nabou
 I am a  research in Computational Mathematics with a focus on Numerical Optimization and Machine Learning. Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
 
@@ -8,7 +8,9 @@ I am a  research in Computational Mathematics with a focus on Numerical Optimiza
 - Second-order optimization techniques for machine learning and applications in power flow analysis, phase retrieval, and control problems.
 - Online optimization with a specific interest in bilevel optimization settings.
 
-I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the [TraDE-Opt](https://trade-opt-itn.eu) project. My thesis is "Higher-order methods for composite optimization and applications".
+I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the [TraDE-Opt](https://trade-opt-itn.eu) project. My thesis is "Higher-order methods for composite optimization and applications". 
+
+I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](https://www.uca.ma) in 2016. I obtained a MSc degree in Applied mathematics from [Faculty of Science and Technology](https://www.fsts.ac.ma) Settat, Morocco in 2018.
 
 
 
