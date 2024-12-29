@@ -10,7 +10,7 @@ I am broadly interested in exploring the following areas:
 - Second-order and higher-order optimization methods.
 - Online optimization with a specific interest in bilevel optimization settings.
 
-I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the Marie Skłodowska-Curie early stage research, [TraDE-Opt](https://trade-opt-itn.eu) project ESR 10. My thesis is "Higher-order methods for composite optimization and applications". 
+I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the Marie Skłodowska-Curie early stage research, [TraDE-Opt](https://trade-opt-itn.eu) project as ESR 10. My thesis is "Higher-order methods for composite optimization and applications". 
 
 I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](https://www.uca.ma) in 2016. I obtained a MSc degree in Applied mathematics from [Faculty of Science and Technology](https://www.fsts.ac.ma) Settat, Morocco in 2018.
 
@@ -27,7 +27,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 ### Talks: 
 - October 31, 2024: **Higher-Order Methods for Composite Optimization with Application**, [MOP](https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml) Research Seminar, Saarland University, Germany, online.  
-- September 16, 2024: **Efficient Algorithms for composite problems with applications**, ESAT KU Leuven, invited by [Hakan Ergun](https://scholar.google.com/citations?user=EGUrHGsAAAAJ&hl=en), online.
+- September 16, 2024: **Efficient Algorithms for composite problems with applications**, ESAT KU Leuven, Belgium, invited by [Hakan Ergun](https://scholar.google.com/citations?user=EGUrHGsAAAAJ&hl=en), online.
 - January 23-26, 2024: **Moving higher-order Taylor approximations method for smooth constrained minimization problems**, Workshop on Analysis and Potential, [website](http://imar.ro/~imar/2024/Conferinte/APBucur/Abstracts.pdf), Bucharest, Romania.
 - September 29-30, 2023: **Moving higher-order Taylor approximations method for smooth constrained minimization problems**, conference on statistical modeling with applications, [website](https://statmod2023.sciencesconf.org/?lang=en), Bucharst. 
 - July 4-8, 2022: **Efficient optimization methods for complex systems**, Workshop on Algorithmic and Continuous Optimization ([website](https://trade-opt-itn.eu/workshop.html)), UCLouvain, Belgium.
