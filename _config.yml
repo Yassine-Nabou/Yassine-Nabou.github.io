@@ -2,12 +2,12 @@ theme: jekyll-theme-cayman
 # Yassine Nabou
 title: Yassine Nabou
 description: >
- <div class="description">
-    • Postdoctoral researcher <br>
-    • Department of Mathematics and Statistics, <br>
-      University of Helsinki, Finland <br>
-    • <a href="mailto:yassine.nabou@helsinki.fi">yassine.nabou@helsinki.fi</a> <br>
-    • <a href="https://scholar.google.com/citations?user=CZzmfnEAAAAJ&hl=en" target="_blank">Google Scholar</a> <br>
-    • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">LinkedIn</a>
- </div>
+    <div style="text-align: left; color: #333; font-family: Arial, sans-serif; line-height: 1.6;">
+        • Postdoctoral researcher <br>
+        • Department of Mathematics and Statistics, <br>
+          University of Helsinki, Finland <br>
+        • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none;">yassine.nabou@helsinki.fi</a> <br>
+        • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none;">Google Scholar</a> <br>
+        • <a href="https://www.linkedin.com/in/YourLinkedInProfile" target="_blank" style="color: #007acc; text-decoration: none;">LinkedIn</a>
+    </div>
 
