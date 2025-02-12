@@ -32,7 +32,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 - January 23-26, 2024: **Moving higher-order Taylor approximations method for smooth constrained minimization problems**, Workshop on Analysis and Potential, [website](http://imar.ro/~imar/2024/Conferinte/APBucur/Abstracts.pdf), Bucharest, Romania.
 - September 29-30, 2023: **Moving higher-order Taylor approximations method for smooth constrained minimization problems**, conference on statistical modeling with applications, [website](https://statmod2023.sciencesconf.org/?lang=en), Bucharst.
 - June 13-16, 2023: **Modified projected Gauss-Newton method for constrained nonlinear least-squares: application to power flow analysis**, European Control Conference 2023, [ECC23](https://ecc23.euca-ecc.org/index.html).  
-- July 4-8, 2022: **Efficient optimization methods for complex systems**, Workshop on Algorithmic and Continuous Optimization ([website](https://trade-opt-itn.eu/workshop.html)), UCLouvain, Belgium.
+- July 4-8, 2022: **Efficient optimization methods for complex systems**, Workshop on Algorithmic and Continuous Optimization [website](https://trade-opt-itn.eu/workshop.html), UCLouvain, Belgium.
 - August 24, 2021: **Higher-order algorithms for composition minimization problems**, MaLGa Machine Learning Genoa Center, Italy, invited by [Silvia Villa](https://dima.unige.it/~villa), online.
 
 
