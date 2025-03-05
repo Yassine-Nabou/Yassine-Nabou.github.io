@@ -20,7 +20,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 ### Publications  
 
 #### 2025 
-- **Y. Nabou**, [Lahcen El Bourkhisi](https://scholar.google.com/citations?user=M5wTSqcAAAAJ&hl=en), [Sebastian U. Stich](https://sstich.ch), Tuomo Valkonen, *Monotone and nonmonotone linearized block coordinate descent methods for nonsmooth composite optimization problems*, Submited.
+- **Y. Nabou**, [Lahcen El Bourkhisi](https://scholar.google.com/citations?user=M5wTSqcAAAAJ&hl=en), [Sebastian U. Stich](https://sstich.ch), Tuomo Valkonen, *Monotone and nonmonotone linearized block coordinate descent methods for nonsmooth composite optimization problems*, submitted.
 - **Y. Nabou**, *Nonmonotone higher-order Taylor approximation methods for composite problems*, [arXiv](https://arxiv.org/abs/2503.01182).  
 
 #### 2024  
