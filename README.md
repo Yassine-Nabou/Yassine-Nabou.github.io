@@ -17,12 +17,18 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Publications:
-- **Yassine Nabou**, Ion Necoara, *Regularized higher-order Taylor approximation methods for composite nonlinear least-squares*, arxiv 2024.
-- **Yassine Nabou**, Ion Necoara, *Moving higher-order Taylor approximations method for smooth constrained minimization problems*, arxiv, 2024, ([pdf](https://arxiv.org/pdf/2402.15022)).
+### Publications
+
+#### 2025
+- **Yassine Nabou**, *Nonmonotone higher-order Taylor approximation methods for composite problems*, [arXiv](https://arxiv.org/abs/2503.01182). 
+
+#### 2024
+- **Yassine Nabou**, Ion Necoara, *Regularized higher-order Taylor approximation methods for composite nonlinear least-squares*, [arXiv](https://arxiv.org/abs/2503.02370).
+- **Yassine Nabou**, Ion Necoara, *Moving higher-order Taylor approximations method for smooth constrained minimization problems*, arXiv, 2024, ([pdf](https://arxiv.org/pdf/2402.15022)).
 - **Yassine Nabou**, [Francois Glineur](https://perso.uclouvain.be/francois.glineur/), and Ion Necoara, *Proximal gradient methods with inexact oracle of degree q for composite optimization*, Optimization Letters, 2024, ([pdf](https://link.springer.com/content/pdf/10.1007/s11590-024-02118-9.pdf)).
 - **Yassine Nabou**, Ion Necoara, *Efficiency of higher-order algorithms for minimizing composite functions*, Computational Optimization and Applications, 2024, ([pdf](https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf)).
-- **Yassine nabou**, [Lucian Toma](https://scholar.google.fr/citations?user=H8ux6UMAAAAJ&hl=fr), and Ion Necoara, *Modified projected Gauss-Newton method for constrained nonlinear least-squares: application to power flow analysis*, European Control Conference 2023, ([pdf](https://ieeexplore.ieee.org/abstract/document/10178179)). 
+- **Yassine Nabou**, [Lucian Toma](https://scholar.google.fr/citations?user=H8ux6UMAAAAJ&hl=fr), and Ion Necoara, *Modified projected Gauss-Newton method for constrained nonlinear least-squares: application to power flow analysis*, European Control Conference 2023, ([pdf](https://ieeexplore.ieee.org/abstract/document/10178179)).
+
 
 
 
