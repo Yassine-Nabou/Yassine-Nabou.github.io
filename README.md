@@ -17,7 +17,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Publications  
+### Publications:  
 
 #### 2025 
 - **Y. Nabou**, [Lahcen El Bourkhisi](https://scholar.google.com/citations?user=M5wTSqcAAAAJ&hl=en), [Sebastian U. Stich](https://sstich.ch), Tuomo Valkonen, *Monotone and nonmonotone linearized block coordinate descent methods for nonsmooth composite optimization problems*, submitted.
