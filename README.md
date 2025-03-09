@@ -1,4 +1,4 @@
-My main research is on numerical optimization: theory, algorithms, and applications. I am currently focusing on efficient methods (both deterministic and stochastic) for convex optimization and nonconvex optimization, with applications in machine learning, control, signal/image processing, engineering, and data science.
+My main research is on numerical optimization: theory, algorithms, and applications. I am currently focusing on efficient methods (both deterministic and stochastic) for convex optimization and nonconvex optimization, with applications in machine learning, engineering, and data science.
 
 Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
@@ -8,7 +8,7 @@ I am broadly interested in exploring the following areas:
 - Optimization: Theory and algorithms with a focus on structure exploitation, sparsity, convexity, stochasticity, and low-rank optimization.
 - Development of efficient methods for convex and non-convex problem classes, including smooth and nonsmooth formulations.
 - Second-order and higher-order optimization methods.
-- Online optimization with a specific interest in bilevel optimization settings.
+- Online optimization: problems that evolve over time and require sequential decision-making.
 
 I defended my Ph.D thesis in May, 2024 supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/) within the Marie Skłodowska-Curie early stage research, [TraDE-OPT](https://cordis.europa.eu/project/id/861137/results) project as ESR 10. My thesis is "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)". 
 
