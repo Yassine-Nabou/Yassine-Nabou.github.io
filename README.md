@@ -46,7 +46,9 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 ### Teaching experience: 
-**Spring 2025** – Course Assistant for [MAT11015: Basics of Mathematics in Machine Learning II](https://studies.helsinki.fi/courses/course-unit/otm-4851899d-9eb0-4618-ae2a-b9551fd5fd91), University of Helsinki.  
+**Spring 2025** – Course Assistant for [MAT11015: Basics of Mathematics in Machine Learning II](https://studies.helsinki.fi/courses/course-unit/otm-4851899d-9eb0-4618-ae2a-b9551fd5fd91), University of Helsinki. 
+
+
 
 
 
