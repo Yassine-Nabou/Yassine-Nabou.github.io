@@ -32,7 +32,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Talks & Conferences  
+### Talks & Conferences:  
 
 - *October 31, 2024*: **Higher-Order Methods for Composite Optimization with Application**, [MOP Research Seminar](https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml), Saarland University, Germany (online).  
 - *September 16, 2024*: **Efficient Algorithms for Composite Problems with Applications**, *ESAT KU Leuven*, Belgium, invited by [Hakan Ergun](https://scholar.google.com/citations?user=EGUrHGsAAAAJ&hl=en) (online).  
@@ -45,7 +45,8 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Teaching experience:
--
+### Teaching experience: 
+**Spring 2025** – Course Assistant for [MAT11015: Basics of Mathematics in Machine Learning II](https://studies.helsinki.fi/courses/course-unit/otm-4851899d-9eb0-4618-ae2a-b9551fd5fd91), University of Helsinki.  
+
 
 
