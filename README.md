@@ -10,7 +10,7 @@ I am broadly interested in exploring the following areas:
 - Second-order and higher-order optimization methods.
 - Online optimization: problems that evolve over time.
 
-I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the prestigious Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
+I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the prestigious Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
 
 
 I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](https://www.uca.ma) in 2016. I obtained a MSc degree in Applied mathematics from [Faculty of Science and Technology](https://www.fsts.ac.ma), Morocco in 2018.
