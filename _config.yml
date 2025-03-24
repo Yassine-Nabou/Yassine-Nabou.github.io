@@ -15,6 +15,7 @@ description: >
         .container {
             display: flex;
             min-height: 100vh;
+            padding-top: 20px;
         }
 
         /* Sidebar Section (Non-fixed) */
@@ -67,6 +68,7 @@ description: >
         .content {
             padding: 30px;
             flex-grow: 1;
+            margin-left: 300px; /* To prevent the content from being hidden under the sidebar */
         }
 
         /* Style for Welcome Message */
@@ -88,7 +90,7 @@ description: >
     </style>
 
     <div class="container">
-        <!-- Sidebar Section (Non-fixed) -->
+        <!-- Sidebar Section -->
         <div class="sidebar">
             <img src="images/Yassine.jpg" alt="Profile Picture">
             <h1>Yassine Nabou</h1>
