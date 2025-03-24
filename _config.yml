@@ -3,16 +3,72 @@ title: "Welcome to My Homepage!"
 name: "" 
 baseurl: ""  
 description: >
-    <div style="display: flex; align-items: flex-start; max-width: 700px;">
-        <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 300px; height: 350px; border-radius: 60%; margin-right: 20px;">
-        <div style="text-align: left;">
-            <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
+    <style>
+        body {
+            background-color: #121212;  /* Dark background */
+            color: #e0e0e0;  /* Light text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Profile Section Styling */
+        .profile {
+            display: flex;
+            align-items: flex-start;
+            background-color: #1e1e1e;  /* Slightly lighter background for profile */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        .profile img {
+            width: 300px;
+            height: 350px;
+            border-radius: 60%;
+            margin-right: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile div {
+            text-align: left;
+            color: #f4f4f4;  /* Light color for text */
+        }
+
+        .profile h1 {
+            font-size: 26px;
+            color: #f4f4f4;
+            margin-bottom: 20px;
+        }
+
+        .profile p {
+            font-size: 15px;
+            color: #c0c0c0;  /* Light gray text */
+        }
+
+        .profile a {
+            color: #1e90ff;  /* Light blue links */
+            text-decoration: none;
+        }
+
+        .profile a:hover {
+            color: #63a8ff;  /* Lighter blue on hover */
+            text-decoration: underline;
+        }
+    </style>
+
+    <div class="profile">
+        <img src="images/Yassine.jpg" alt="Profile Picture">
+        <div>
+            <h1>Yassine Nabou</h1>
             <p>Postdoctoral researcher</p>
-            <p style="font-size: 15px;">Department of Mathematics and Statistics <br>  University of Helsinki, Finland <br> Exactum building, office B326   </p>
+            <p style="font-size: 15px;">Department of Mathematics and Statistics <br> University of Helsinki, Finland <br> Exactum building, office B326</p>
             <p style="font-size: 14px;">
-                • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 16px;">yassine.nabou@helsinki.fi</a> <br>
-                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">Google Scholar</a> <br>
-                • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">LinkedIn</a>
+                • <a href="mailto:yassine.nabou@helsinki.fi">yassine.nabou@helsinki.fi</a> <br>
+                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">Google Scholar</a> <br>
+                • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">LinkedIn</a>
             </p>
         </div>
     </div>
