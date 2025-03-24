@@ -17,7 +17,7 @@ description: >
             min-height: 100vh;
         }
 
-        /* Sidebar Section (fixed) */
+        /* Sidebar Section (Fixed) */
         .sidebar {
             width: 280px;
             background: #f8f9fa;
@@ -75,6 +75,15 @@ description: >
             overflow-y: auto;
             flex-grow: 1;
         }
+
+        /* Style for Welcome Message */
+        .welcome-message {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+            margin-top: 40px;
+        }
     </style>
 
     <div class="container">
@@ -89,8 +98,11 @@ description: >
             <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">🔗 LinkedIn</a>
         </div>
 
-        <!-- Main Content (Markdown Content) -->
+        <!-- Main Content Section with Welcome Message -->
         <div class="content">
-            {{ content }}
+            <div class="welcome-message">
+                Welcome to My Homepage!
+            </div>
+            <!-- Add more content here as needed -->
         </div>
     </div>
