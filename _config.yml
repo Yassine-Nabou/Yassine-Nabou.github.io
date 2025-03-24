@@ -23,8 +23,6 @@ description: >
             height: 250px;
             border-radius: 60%;
             margin-right: 30px;
-            border: 4px solid #007acc; /* Blue border around the picture */
-            padding: 5px; /* Optional: adds some space between the border and the image */
         }
 
         /* Styling for the text content */
