@@ -5,9 +5,9 @@ baseurl: ""
 description: >
     <style>
         body {
-            background-color: #121212;  /* Dark background */
-            color: #e0e0e0;  /* Light text */
             font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
             margin: 0;
             padding: 0;
         }
@@ -16,12 +16,12 @@ description: >
         .profile {
             display: flex;
             align-items: flex-start;
-            background-color: #1e1e1e;  /* Slightly lighter background for profile */
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
             max-width: 700px;
-            margin: 20px auto;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
         .profile img {
@@ -29,33 +29,39 @@ description: >
             height: 350px;
             border-radius: 60%;
             margin-right: 20px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            border: 3px solid #007acc; /* Add subtle border around profile picture */
         }
 
         .profile div {
             text-align: left;
-            color: #f4f4f4;  /* Light color for text */
+            color: #333;
         }
 
         .profile h1 {
             font-size: 26px;
-            color: #f4f4f4;
+            color: #003366; /* Corporate dark blue */
             margin-bottom: 20px;
         }
 
         .profile p {
             font-size: 15px;
-            color: #c0c0c0;  /* Light gray text */
+            color: #666;
         }
 
         .profile a {
-            color: #1e90ff;  /* Light blue links */
+            color: #007acc; /* Corporate blue */
             text-decoration: none;
+            font-size: 16px;
         }
 
         .profile a:hover {
-            color: #63a8ff;  /* Lighter blue on hover */
+            color: #005fa3; /* Darker blue on hover */
             text-decoration: underline;
+        }
+
+        /* Corporate Link Styling */
+        .profile a:visited {
+            color: #007acc;
         }
     </style>
 
