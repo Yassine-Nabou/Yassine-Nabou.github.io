@@ -3,7 +3,7 @@ title: "Welcome to My Homepage!"
 name: "" 
 baseurl: ""  
 description: >
-    <div style="display: flex; align-items: center; margin: auto; line-height: 1.2; max-width: 700px;">
+    <div style="display: flex; align-items: flex-start; max-width: 700px;">
         <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 300px; height: 350px; border-radius: 60%; margin-right: 20px;">
         <div style="text-align: left;">
             <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
@@ -16,5 +16,4 @@ description: >
             </p>
         </div>
     </div>
-
 
