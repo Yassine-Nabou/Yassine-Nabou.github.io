@@ -3,17 +3,29 @@ title: "Welcome to My Homepage!"
 name: "" 
 baseurl: ""  
 description: >
-    <div style="display: flex; align-items: flex-start; max-width: 700px;">
-        <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 300px; height: 350px; border-radius: 60%; margin-right: 20px;">
-        <div style="text-align: left;">
-            <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
-            <p>Postdoctoral researcher</p>
-            <p style="font-size: 15px;">Department of Mathematics and Statistics <br>  University of Helsinki, Finland <br> Exactum building, office B326   </p>
-            <p style="font-size: 14px;">
-                • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 16px;">yassine.nabou@helsinki.fi</a> <br>
-                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">Google Scholar</a> <br>
-                • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">LinkedIn</a>
+    <div style="display: flex; min-height: 100vh;">
+        <!-- Sidebar Section -->
+        <div style="width: 280px; background: #f4f4f4; padding: 20px; position: fixed; height: 100vh; overflow-y: auto;">
+            <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 180px; height: 210px; border-radius: 50%; display: block; margin: 0 auto 20px;">
+            <h1 style="text-align: center; font-size: 22px;">Yassine Nabou</h1>
+            <p style="text-align: center; font-size: 16px; color: #333;">Postdoctoral Researcher</p>
+            <p style="font-size: 14px; text-align: center; color: #555;">
+                Department of Mathematics and Statistics <br> 
+                University of Helsinki, Finland <br> 
+                Exactum building, office B326  
             </p>
+            <p style="font-size: 14px; text-align: center;">
+                <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 16px;">Email</a> <br>
+                <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">Google Scholar</a> <br>
+                <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">LinkedIn</a>
+            </p>
+        </div>
+
+        <!-- Main Content Section -->
+        <div style="margin-left: 300px; padding: 20px;">
+            <h2>Welcome to My Homepage!</h2>
+            <p>Hello! I'm a postdoctoral researcher specializing in optimization and machine learning.</p>
+            <p>Feel free to explore my work and connect with me!</p>
         </div>
     </div>
 
