@@ -3,27 +3,81 @@ title: "Welcome to My Homepage!"
 name: "" 
 baseurl: ""  
 description: >
-    <div style="display: flex; max-width: 1200px; margin: 0 auto;">
-        <!-- Sidebar Section (Flexible Width) -->
-        <div style="width: 280px; background: #f4f4f4; padding: 20px; flex-shrink: 0;">
-            <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 180px; height: 210px; border-radius: 50%; display: block; margin: 0 auto 20px;">
-            <h1 style="text-align: center; font-size: 22px;">Yassine Nabou</h1>
-            <p style="text-align: center; font-size: 16px; color: #333;">Postdoctoral Researcher</p>
-            <p style="font-size: 14px; text-align: center; color: #555;">
-                Department of Mathematics and Statistics <br> 
-                University of Helsinki, Finland <br> 
-                Exactum building, office B326  
-            </p>
-            <p style="font-size: 14px; text-align: center;">
-                <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 16px;">Email</a> <br>
-                <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">Google Scholar</a> <br>
-                <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">LinkedIn</a>
-            </p>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .sidebar {
+            width: 280px;
+            background: #f8f9fa;
+            padding: 20px;
+            flex-shrink: 0;
+            border-right: 1px solid #ddd;
+        }
+        .sidebar img {
+            width: 180px;
+            height: 210px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px;
+        }
+        .sidebar h1 {
+            font-size: 22px;
+            color: #003366;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .sidebar p {
+            font-size: 14px;
+            text-align: center;
+            color: #666;
+        }
+        .sidebar a {
+            display: block;
+            text-align: center;
+            background: #007acc;
+            color: #fff;
+            padding: 8px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 5px auto;
+            width: 80%;
+        }
+        .sidebar a:hover {
+            background: #0056b3;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 30px;
+        }
+    </style>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+            <img src="images/Yassine.jpg" alt="Profile Picture">
+            <h1>Yassine Nabou</h1>
+            <p>Postdoctoral Researcher</p>
+            <p>Department of Mathematics and Statistics <br> University of Helsinki, Finland <br> Exactum building, office B326</p>
+            <a href="mailto:yassine.nabou@helsinki.fi">📧 Email</a>
+            <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">📖 Google Scholar</a>
+            <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">🔗 LinkedIn</a>
         </div>
 
-        <!-- Main Content Section (Markdown Content) -->
-        <div style="flex-grow: 1; padding: 20px;">
-            {{ content }}
+        <!-- Main Content (Auto-loads README.md or index.md) -->
+        <div class="content">
+            <!-- This will be replaced by README.md -->
         </div>
     </div>
+
 
