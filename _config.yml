@@ -113,10 +113,7 @@ description: >
             </div>
             <div class="readme-content">
                 <!-- Include README.md content here -->
-                {% capture readme %}
-                    {% include README.md %}
-                {% endcapture %}
-                {{ readme | markdownify }}
+                {% include README.md %}
             </div>
         </div>
     </div>
