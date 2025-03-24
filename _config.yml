@@ -6,88 +6,88 @@ description: >
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-color: #ffffff;
             color: #333;
+            margin: 0;
+            padding: 0;
         }
 
-        /* Styling for the Profile Section */
-        .profile-section {
+        /* Profile Section Styling */
+        .profile-card {
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
             align-items: flex-start;
-            margin: 40px;
+            max-width: 800px;
+            margin: 40px auto;
             padding: 20px;
-            max-width: 1200px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
         }
 
-        .profile-section img {
+        .profile-card img {
             width: 200px;
             height: 250px;
             border-radius: 60%;
-            margin-right: 30px;
+            margin-right: 20px;
+            border: 3px solid #007acc; /* Add subtle border around profile picture */
         }
 
-        .profile-section .text-content {
+        .profile-card div {
             text-align: left;
-            max-width: 600px;
+            color: #333;
+            flex-grow: 1;
         }
 
-        .profile-section h1 {
+        .profile-card h1 {
             font-size: 26px;
-            color: #003366; /* Professional blue */
+            color: #003366; /* Corporate dark blue */
             margin-bottom: 10px;
         }
 
-        .profile-section p {
+        .profile-card p {
             font-size: 15px;
             color: #666;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
-        .profile-section a {
+        .profile-card a {
             color: #007acc; /* Corporate blue */
             text-decoration: none;
             font-size: 16px;
         }
 
-        .profile-section a:hover {
+        .profile-card a:hover {
             color: #005fa3; /* Darker blue on hover */
             text-decoration: underline;
         }
 
+        .profile-card a:visited {
+            color: #007acc;
+        }
+
         /* Responsive Styling */
         @media (max-width: 768px) {
-            .profile-section {
+            .profile-card {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
             }
 
-            .profile-section img {
+            .profile-card img {
                 margin-right: 0;
                 margin-bottom: 20px;
-            }
-
-            .profile-section .text-content {
-                text-align: center;
             }
         }
     </style>
 
-    <!-- Profile Section -->
-    <div class="profile-section">
+    <div class="profile-card">
         <img src="images/Yassine.jpg" alt="Profile Picture">
-        <div class="text-content">
+        <div>
             <h1>Yassine Nabou</h1>
             <p>Postdoctoral researcher</p>
-            <p style="font-size: 15px;">
-                Department of Mathematics and Statistics <br>
-                University of Helsinki, Finland <br>
-                Exactum building, office B326
-            </p>
+            <p style="font-size: 15px;">Department of Mathematics and Statistics <br> University of Helsinki, Finland <br> Exactum building, office B326</p>
             <p style="font-size: 14px;">
                 • <a href="mailto:yassine.nabou@helsinki.fi">yassine.nabou@helsinki.fi</a> <br>
                 • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">Google Scholar</a> <br>
