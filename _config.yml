@@ -108,7 +108,7 @@ description: >
             </div>
             <div class="readme-content">
                 <!-- Include README.md content here -->
-                {% include README.md %}
+                {% include readme.md %}
             </div>
         </div>
     </div>
