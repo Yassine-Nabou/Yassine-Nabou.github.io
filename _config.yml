@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: "Welcome to My Homepage!" 
+title: ""  # Removed title to prevent duplication
 name: "" 
 baseurl: ""  
 description: >
@@ -84,6 +84,14 @@ description: >
             text-align: left;
             margin-top: 40px;
         }
+
+        /* Styling for the Readme Content */
+        .readme-content {
+            font-size: 16px;
+            color: #444;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
     </style>
 
     <div class="container">
@@ -98,11 +106,17 @@ description: >
             <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">🔗 LinkedIn</a>
         </div>
 
-        <!-- Main Content Section with Welcome Message -->
+        <!-- Main Content Section with Welcome Message and Readme Content -->
         <div class="content">
             <div class="welcome-message">
                 Welcome to My Homepage!
             </div>
-            <!-- Add more content here as needed -->
+            <div class="readme-content">
+                <!-- Include README.md content here -->
+                {% capture readme %}
+                    {% include README.md %}
+                {% endcapture %}
+                {{ readme | markdownify }}
+            </div>
         </div>
     </div>
