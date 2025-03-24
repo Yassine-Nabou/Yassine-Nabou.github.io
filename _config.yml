@@ -3,16 +3,74 @@ title: "Welcome to My Homepage!"
 name: "" 
 baseurl: ""  
 description: >
-    <div style="display: flex; align-items: flex-start; max-width: 700px;">
-        <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 300px; height: 350px; border-radius: 60%; margin-right: 20px;">
-        <div style="text-align: left;">
-            <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
+    <style>
+        /* Styling for the container holding the profile */
+        .profile-container {
+            display: flex;
+            align-items: flex-start;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the profile image */
+        .profile-container img {
+            width: 200px;
+            height: 250px;
+            border-radius: 60%;
+            margin-right: 30px;
+        }
+
+        /* Styling for the text content */
+        .profile-container .text-content {
+            text-align: left;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .profile-container h1 {
+            font-size: 26px;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        .profile-container p {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .profile-container a {
+            color: #007acc;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .profile-container a:hover {
+            color: #005fa3;
+            text-decoration: underline;
+        }
+    </style>
+
+    <!-- Profile Box -->
+    <div class="profile-container">
+        <img src="images/Yassine.jpg" alt="Profile Picture">
+        <div class="text-content">
+            <h1>Yassine Nabou</h1>
             <p>Postdoctoral researcher</p>
-            <p style="font-size: 15px;">Department of Mathematics and Statistics <br>  University of Helsinki, Finland <br> Exactum building, office B326   </p>
+            <p style="font-size: 15px;">
+                Department of Mathematics and Statistics <br>
+                University of Helsinki, Finland <br>
+                Exactum building, office B326
+            </p>
             <p style="font-size: 14px;">
-                • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 16px;">yassine.nabou@helsinki.fi</a> <br>
-                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">Google Scholar</a> <br>
-                • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">LinkedIn</a>
+                • <a href="mailto:yassine.nabou@helsinki.fi">yassine.nabou@helsinki.fi</a> <br>
+                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">Google Scholar</a> <br>
+                • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">LinkedIn</a>
             </p>
         </div>
     </div>
