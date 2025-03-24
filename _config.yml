@@ -17,16 +17,11 @@ description: >
             min-height: 100vh;
         }
 
-        /* Sidebar Section (Fixed) */
+        /* Sidebar Section (Non-fixed) */
         .sidebar {
             width: 280px;
             background: #f8f9fa;
             padding: 20px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            overflow-y: auto;
             border-right: 1px solid #ddd;
         }
 
@@ -70,9 +65,7 @@ description: >
 
         /* Main Content Section */
         .content {
-            margin-left: 300px;
             padding: 30px;
-            overflow-y: auto;
             flex-grow: 1;
         }
 
@@ -95,7 +88,7 @@ description: >
     </style>
 
     <div class="container">
-        <!-- Sidebar Section (Fixed) -->
+        <!-- Sidebar Section (Non-fixed) -->
         <div class="sidebar">
             <img src="images/Yassine.jpg" alt="Profile Picture">
             <h1>Yassine Nabou</h1>
