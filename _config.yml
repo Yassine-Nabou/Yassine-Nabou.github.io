@@ -1,114 +1,18 @@
 theme: jekyll-theme-cayman
-title: ""  # Removed title to prevent duplication
+title: "Welcome to My Homepage!" 
 name: "" 
 baseurl: ""  
 description: >
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #ffffff;
-        }
-
-        /* Container for Sidebar and Main Content */
-        .container {
-            display: flex;
-            min-height: 100vh;
-            padding-top: 20px;
-        }
-
-        /* Sidebar Section */
-        .sidebar {
-            width: 280px;
-            background: #f8f9fa;
-            padding: 20px;
-            border-right: 1px solid #ddd;
-        }
-
-        .sidebar img {
-            width: 180px;
-            height: 210px;
-            border-radius: 50%;
-            display: block;
-            margin: 0 auto 15px;
-        }
-
-        .sidebar h1 {
-            font-size: 22px;
-            color: #003366;
-            text-align: center;
-            margin-bottom: 5px;
-        }
-
-        .sidebar p {
-            font-size: 14px;
-            text-align: center;
-            color: #666;
-        }
-
-        .sidebar a {
-            display: block;
-            text-align: center;
-            background: #007acc;
-            color: #fff;
-            padding: 8px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 14px;
-            margin: 5px auto;
-            width: 80%;
-        }
-
-        .sidebar a:hover {
-            background: #0056b3;
-        }
-
-        /* Main Content Section */
-        .content {
-            padding: 30px;
-            flex-grow: 1;
-            margin-left: 300px; /* To prevent the content from being hidden under the sidebar */
-        }
-
-        /* Style for Welcome Message */
-        .welcome-message {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-            text-align: left;
-            margin-top: 40px;
-        }
-
-        /* Styling for the Readme Content */
-        .readme-content {
-            font-size: 16px;
-            color: #444;
-            margin-top: 20px;
-            line-height: 1.6;
-            padding: 20px;  /* Add padding for better spacing */
-            overflow-y: auto;  /* Allow for scrolling if content is long */
-            background-color: #f8f9fa;  /* Optional: gives a background to the content area */
-            border-radius: 5px;  /* Optional: adds rounded corners for visual appeal */
-        }
-    </style>
-
-    <div class="container">
-        <!-- Sidebar Section -->
-        <div class="sidebar">
-            <img src="images/Yassine.jpg" alt="Profile Picture">
-            <h1>Yassine Nabou</h1>
-            <p>Postdoctoral Researcher</p>
-            <p>Department of Mathematics and Statistics <br> University of Helsinki, Finland <br> Exactum building, office B326</p>
-            <a href="mailto:yassine.nabou@helsinki.fi">📧 Email</a>
-            <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">📖 Google Scholar</a>
-            <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">🔗 LinkedIn</a>
-        </div>
-
-        <!-- Main Content Section with Welcome Message and Readme Content -->
-        <div class="content">
-            <div class="welcome-message">
-                Welcome to My Homepage!
-            </div>
+    <div style="display: flex; align-items: flex-start; max-width: 700px;">
+        <img src="images/Yassine.jpg" alt="Profile Picture" style="width: 300px; height: 350px; border-radius: 60%; margin-right: 20px;">
+        <div style="text-align: left;">
+            <h1 style="margin-bottom: 20px;">Yassine Nabou</h1>
+            <p>Postdoctoral researcher</p>
+            <p style="font-size: 15px;">Department of Mathematics and Statistics <br>  University of Helsinki, Finland <br> Exactum building, office B326   </p>
+            <p style="font-size: 14px;">
+                • <a href="mailto:yassine.nabou@helsinki.fi" style="color: #007acc; text-decoration: none; font-size: 16px;">yassine.nabou@helsinki.fi</a> <br>
+                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">Google Scholar</a> <br>
+                • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank" style="color: #007acc; text-decoration: none; font-size: 16px;">LinkedIn</a>
+            </p>
         </div>
     </div>
