@@ -6,23 +6,30 @@ description: >
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #ffffff;
-            color: #333;
             margin: 0;
             padding: 0;
+            background: #ffffff;
         }
+
+        /* Container for Sidebar and Main Content */
         .container {
             display: flex;
-            max-width: 1200px;
-            margin: 0 auto;
+            min-height: 100vh;
         }
+
+        /* Sidebar Section (fixed) */
         .sidebar {
             width: 280px;
             background: #f8f9fa;
             padding: 20px;
-            flex-shrink: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            overflow-y: auto;
             border-right: 1px solid #ddd;
         }
+
         .sidebar img {
             width: 180px;
             height: 210px;
@@ -30,17 +37,20 @@ description: >
             display: block;
             margin: 0 auto 15px;
         }
+
         .sidebar h1 {
             font-size: 22px;
             color: #003366;
             text-align: center;
             margin-bottom: 5px;
         }
+
         .sidebar p {
             font-size: 14px;
             text-align: center;
             color: #666;
         }
+
         .sidebar a {
             display: block;
             text-align: center;
@@ -53,17 +63,22 @@ description: >
             margin: 5px auto;
             width: 80%;
         }
+
         .sidebar a:hover {
             background: #0056b3;
         }
+
+        /* Main Content Section */
         .content {
-            flex-grow: 1;
+            margin-left: 300px;
             padding: 30px;
+            overflow-y: auto;
+            flex-grow: 1;
         }
     </style>
 
     <div class="container">
-        <!-- Sidebar Section -->
+        <!-- Sidebar Section (Fixed) -->
         <div class="sidebar">
             <img src="images/Yassine.jpg" alt="Profile Picture">
             <h1>Yassine Nabou</h1>
@@ -74,10 +89,8 @@ description: >
             <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">🔗 LinkedIn</a>
         </div>
 
-        <!-- Main Content (Auto-loads README.md or index.md) -->
+        <!-- Main Content (Markdown Content) -->
         <div class="content">
-            <!-- This will be replaced by README.md -->
+            {{ content }}
         </div>
     </div>
-
-
