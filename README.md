@@ -8,7 +8,8 @@ I am broadly interested in exploring the following areas:
 - Optimization: Theory and algorithms with a focus on structure exploitation, sparsity, convexity, stochasticity, and low-rank optimization.
 - Development of efficient methods for convex and non-convex problem classes, including smooth and nonsmooth formulations.
 - Second-order and higher-order optimization methods.
-- Online optimization: problems that evolve over time.
+- Online optimization.
+- Machine learning, including distributed and federated learning.
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
 
