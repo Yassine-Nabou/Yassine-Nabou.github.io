@@ -32,8 +32,9 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Talks & Conferences:  
+### Talks & Conferences:
 
+-*June 29 - July 2, 2025*: **Nonmonotone linearized block coordinate descent methods for nonsmooth composite optimization problems**, [EUROPT 2025](https://europt2025.org/#Social-Program), Southampton, UK.
 - *October 31, 2024*: **Higher-Order Methods for Composite Optimization with Application**, [MOP Research Seminar](https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml), Saarland University, Germany (online).  
 - *September 16, 2024*: **Efficient Algorithms for Composite Problems with Applications**, *ESAT KU Leuven*, Belgium, invited by [Hakan Ergun](https://scholar.google.com/citations?user=EGUrHGsAAAAJ&hl=en) (online).  
 - *January 23-26, 2024*: **Moving Higher-Order Taylor Approximations Method for Smooth Constrained Minimization Problems**, *Workshop on Analysis and Potential*, [event website](http://imar.ro/~imar/2024/Conferinte/APBucur/Abstracts.pdf), Bucharest, Romania.  
