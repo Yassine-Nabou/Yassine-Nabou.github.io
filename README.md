@@ -5,7 +5,7 @@ Currently I am a postdoctoral researcher at university of Helsinki, Finland, wor
 
 ## Area of intrerest:
 I am broadly interested in exploring the following areas:
-- Development of efficient methods for convex and non-convex problem classes, including smooth and nonsmooth formulations, with a focus on exploiting problem structure (e.g., sparsity, stochasticity).
+- Development of efficient methods for convex and non-convex problem, including smooth and nonsmooth formulations, with a focus on exploiting problem structure (e.g., sparsity, stochasticity).
 - Second-order and higher-order optimization methods.
 - Online optimization.
 - Machine learning, including distributed and federated learning.
