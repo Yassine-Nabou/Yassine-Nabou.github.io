@@ -1,76 +1,85 @@
 theme: jekyll-theme-cayman
-title: "Welcome to My Homepage!" 
-name: "" 
-baseurl: ""  
+title: "Welcome to My Homepage!"
+name: ""
+baseurl: ""
 description: >
     <style>
-        /* Styling for the container holding the profile */
-        .profile-container {
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
             display: flex;
-            align-items: flex-start;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
         }
 
-        /* Styling for the profile image */
-        .profile-container img {
-            width: 200px;
-            height: 250px;
+        /* Fixed left sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100vh;
+            background-color: #ffffff;
+            border-right: 2px solid #ddd;
+            padding: 40px 20px;
+            box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .sidebar img {
+            width: 160px;
+            height: 200px;
             border-radius: 60%;
-            margin-right: 30px;
+            object-fit: cover;
+            margin-bottom: 20px;
         }
 
-        /* Styling for the text content */
-        .profile-container .text-content {
-            text-align: left;
-            max-width: 600px;
-            line-height: 1.6;
-        }
-
-        .profile-container h1 {
-            font-size: 26px;
+        .sidebar h1 {
+            font-size: 22px;
             color: #003366;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
-        .profile-container p {
+        .sidebar p {
             font-size: 15px;
-            color: #666;
-            margin-bottom: 15px;
+            color: #555;
+            margin: 5px 0;
         }
 
-        .profile-container a {
+        .sidebar a {
             color: #007acc;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 15px;
         }
 
-        .profile-container a:hover {
+        .sidebar a:hover {
             color: #005fa3;
             text-decoration: underline;
         }
+
+        /* Scrollable main content */
+        .main-content {
+            margin-left: 320px; /* same as sidebar width + padding */
+            padding: 40px;
+            max-width: 800px;
+        }
     </style>
 
-    <!-- Profile Box -->
-    <div class="profile-container">
+    <div class="sidebar">
         <img src="images/Yassine.jpg" alt="Profile Picture">
-        <div class="text-content">
-            <h1>Yassine Nabou</h1>
-            <p>Postdoctoral researcher</p>
-            <p style="font-size: 15px;">
-                Department of Mathematics and Statistics <br>
-                University of Helsinki, Finland <br>
-                Exactum building, office B326
-            </p>
-            <p style="font-size: 14px;">
-                • <a href="mailto:yassine.nabou@helsinki.fi">yassine.nabou@helsinki.fi</a> <br>
-                • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">Google Scholar</a> <br>
-                • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">LinkedIn</a>
-            </p>
-        </div>
+        <h1>Yassine Nabou</h1>
+        <p>Postdoctoral researcher</p>
+        <p style="font-size: 15px;">
+            Department of Mathematics and Statistics <br>
+            University of Helsinki, Finland <br>
+            Exactum building, office B326
+        </p>
+        <p style="font-size: 14px;">
+            • <a href="mailto:yassine.nabou@helsinki.fi">yassine.nabou@helsinki.fi</a> <br>
+            • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">Google Scholar</a> <br>
+            • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">LinkedIn</a>
+        </p>
+    </div>
+
+    <div class="main-content">
+        <!-- Add your main page content here -->
     </div>
