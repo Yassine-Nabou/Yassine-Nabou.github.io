@@ -4,15 +4,15 @@ name: ""
 baseurl: ""
 description: >
     <style>
-        /* Reset Cayman layout alignment */
+        /* Slightly shift Cayman content to the right for spacing */
         main {
-            margin-left: 320px !important;
+            margin-left: 330px !important; /* was 320px */
             max-width: 800px !important;
         }
 
-        /* Fix the header so it doesn't overlap */
+        /* Shift the header too */
         header {
-            margin-left: 320px !important;
+            margin-left: 330px !important; /* was 320px */
         }
 
         /* Sidebar styling */
