@@ -51,19 +51,10 @@ description: >
             color: #007acc;
             text-decoration: none;
             font-size: 15px;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
         }
 
         .sidebar a:hover {
             text-decoration: underline;
-        }
-
-        .icon {
-            width: 18px;
-            height: 18px;
-            vertical-align: middle;
         }
     </style>
 
@@ -77,14 +68,8 @@ description: >
             Exactum building, office B326
         </p>
         <p style="font-size: 14px;">
-            • <a href="mailto:yassine.nabou@helsinki.fi">
-                <img src="images/email.png" class="icon" alt="Email Icon"> Email
-              </a> <br>
-            • <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">
-                <img src="images/scholar.png" class="icon" alt="Scholar Icon"> Google Scholar
-              </a> <br>
-            • <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">
-                <img src="images/linkedin.png" class="icon" alt="LinkedIn Icon"> LinkedIn
-              </a>
+            • 📧 <a href="mailto:yassine.nabou@helsinki.fi">Email</a> <br>
+            • 🎓 <a href="https://scholar.google.com/citations?user=YourScholarID" target="_blank">Google Scholar</a> <br>
+            • 🔗 <a href="https://www.linkedin.com/in/yassine-nabou-aba88114b/" target="_blank">LinkedIn</a>
         </p>
     </div>
