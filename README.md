@@ -6,15 +6,15 @@ Currently I am a postdoctoral researcher at university of Helsinki, Finland, wor
 ## Area of intrerest:
 I am broadly interested in exploring the following areas:
 
-### Optimization
+**Optimization**
 - Efficient methods for (non)convex problems, (non)smooth formulations
 - Structure-exploiting methods (sparsity, stochasticity)
 - Second-order and higher-order optimization methods
 - Online optimization
 
-### Machine Learning
+**Machine Learning**
 - Applications of optimization in machine learning
-- Distributed learning and Federated learning
+- Distributed and Federated learning
 - Communication- and computation-efficient algorithms
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
