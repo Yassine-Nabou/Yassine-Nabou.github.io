@@ -1,14 +1,21 @@
-My main research is on numerical optimization: theory, algorithms, and applications. I am currently focusing on efficient methods (both deterministic and stochastic) for convex optimization and nonconvex optimization, with applications in machine learning, engineering, and data science.
+My main research is on numerical optimization: theory, algorithms, and applications. I am currently focusing on efficient methods (both deterministic and stochastic), with applications in machine learning and data science.
 
 Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
 
 ## Area of intrerest:
 I am broadly interested in exploring the following areas:
-- Development of efficient methods for convex and non-convex problem, including smooth and nonsmooth formulations, with a focus on exploiting problem structure (e.g., sparsity, stochasticity).
-- Second-order and higher-order optimization methods.
-- Online optimization.
-- Machine learning, including distributed and federated learning.
+
+### Optimization
+- Efficient methods for (non)convex problems, (non)smooth formulations
+- Structure-exploiting methods (sparsity, stochasticity)
+- Second-order and higher-order optimization methods
+- Online optimization
+
+### Machine Learning
+- Applications of optimization in machine learning
+- Distributed learning and Federated learning
+- Communication- and computation-efficient algorithms
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
 
