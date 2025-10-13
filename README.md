@@ -9,7 +9,7 @@ I am broadly interested in exploring the following areas:
 **Optimization**
 - Efficient methods for (non)convex problems, (non)smooth formulations
 - Structure-exploiting methods (sparsity, stochasticity)
-- Second-order and higher-order optimization methods
+- Second and higher-order optimization methods
 - Online optimization
 
 **Machine Learning**
