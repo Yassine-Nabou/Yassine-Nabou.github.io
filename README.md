@@ -32,9 +32,9 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 #### 2024  
 - **Y. Nabou**, [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Regularized higher-order Taylor approximation methods for composite nonlinear least-squares*, [arXiv](https://arxiv.org/abs/2503.02370).  
-- **Y. Nabou**, [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Moving higher-order Taylor approximations method for smooth constrained minimization problems*, *SIAM Journal on Optimization*, [arXiv](https://arxiv.org/abs/2402.15022).   
-- **Y. Nabou**, [Francois Glineur](https://perso.uclouvain.be/francois.glineur/), [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Proximal gradient methods with inexact oracle of degree q for composite optimization*, *Optimization Letters*, 2024, ([pdf](https://link.springer.com/content/pdf/10.1007/s11590-024-02118-9.pdf)).  
-- **Y. Nabou**,  [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Efficiency of higher-order algorithms for minimizing composite functions*, *Computational Optimization and Applications*, 2024, ([pdf](https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf)).  
+- **Y. Nabou**, [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Moving higher-order Taylor approximations method for smooth constrained minimization problems*, *SIAM Journal on Optimization* (accepted), [arXiv](https://arxiv.org/abs/2402.15022).   
+- **Y. Nabou**, [Francois Glineur](https://perso.uclouvain.be/francois.glineur/), [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Proximal gradient methods with inexact oracle of degree q for composite optimization*, *Optimization Letters*, ([pdf](https://link.springer.com/content/pdf/10.1007/s11590-024-02118-9.pdf)).  
+- **Y. Nabou**,  [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Efficiency of higher-order algorithms for minimizing composite functions*, *Computational Optimization and Applications*, ([pdf](https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf)).  
 - **Y. Nabou**, [Lucian Toma](https://scholar.google.fr/citations?user=H8ux6UMAAAAJ&hl=fr), [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), *Modified projected Gauss-Newton method for constrained nonlinear least-squares: application to power flow analysis*, *European Control Conference*, ([pdf](https://ieeexplore.ieee.org/abstract/document/10178179)).  
 
 
