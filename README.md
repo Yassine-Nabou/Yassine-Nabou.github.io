@@ -33,7 +33,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Publications:  
+## Publications:  
 
 #### 2025 
 - **Y. Nabou**, [Lahcen El Bourkhisi](https://scholar.google.com/citations?user=M5wTSqcAAAAJ&hl=en), [Sebastian U. Stich](https://sstich.ch), [Tuomo Valkonen](https://tuomov.iki.fi), *Monotone and nonmonotone linearized block coordinate descent methods for nonsmooth composite optimization problems*, [arXiv](https://arxiv.org/abs/2506.12397).
@@ -48,7 +48,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Talks & Conferences:
+## Talks & Conferences:
 
 - *June 29 - July 2, 2025*: **Nonmonotone linearized block coordinate descent methods for nonsmooth composite problems**, [EUROPT 2025](https://europt2025.org/#Social-Program), Southampton, UK.
 - *October 31, 2024*: **Higher-Order Methods for Composite Optimization with Application**, [MOP Research Seminar](https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml), Saarland University, Germany (online).  
@@ -61,7 +61,7 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-### Teaching experience: 
+## Teaching experience: 
  - *Spring 2026 (upcoming)* – Appointed to teach [MAT11015: Basics of Mathematics in Machine Learning II](https://studies.helsinki.fi/courses/course-implementation/hy-opt-cur-2526-d350dc54-bfe4-4081-9df1-e070aa033b22/MAT11015) University of Helsinki. 
  - *Spring 2025* – Course Assistant for [MAT11015: Basics of Mathematics in Machine Learning II](https://studies.helsinki.fi/courses/course-implementation/hy-opt-cur-2425-d350dc54-bfe4-4081-9df1-e070aa033b22/MAT11015) University of Helsinki. 
 
