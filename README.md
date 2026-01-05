@@ -1,5 +1,7 @@
 I am an applied scientist and researcher working at the intersection of numerical optimization and machine learning. My work spans optimization theory, algorithm design, and scalable implementations, with a focus on both convex and non-convex problems.
+
 I specialize in bridging mathematical foundations with practical, high-performance solutions, developing efficient methods that improve the speed, robustness, and scalability of machine learning models.
+
 I am interested in applying optimization-driven approaches to complex R&D challenges in areas such as AI, energy systems, and large-scale decision-making.
 
 Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
