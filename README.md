@@ -22,8 +22,8 @@ I am broadly interested in exploring the following areas:
 - Communication- and computation-efficient algorithms
 
 ### Technical Skills
-**Programming:** Python, Julia, R, MATLAB  
-**Scientific Computing & Machine Learning:** SciPy, PyTorch, TensorFlow
+- **Programming:** Python, Julia, R, MATLAB  
+- **Scientific Computing & Machine Learning:** SciPy, PyTorch, TensorFlow
   
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
