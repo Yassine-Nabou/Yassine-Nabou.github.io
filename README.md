@@ -1,4 +1,6 @@
-My main research is on numerical optimization: theory, algorithms, and applications. I am currently focusing on efficient methods (both deterministic and stochastic), with applications in machine learning and data science.
+I am an applied scientist and researcher working at the intersection of numerical optimization and machine learning. My work spans optimization theory, algorithm design, and scalable implementations, with a focus on both convex and non-convex problems.
+I specialize in bridging mathematical foundations with practical, high-performance solutions, developing efficient methods that improve the speed, robustness, and scalability of machine learning models.
+I am interested in applying optimization-driven approaches to complex R&D challenges in areas such as AI, energy systems, and large-scale decision-making.
 
 Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
 
@@ -16,6 +18,12 @@ I am broadly interested in exploring the following areas:
 - Applications of optimization in machine learning
 - Distributed and Federated learning
 - Communication- and computation-efficient algorithms
+
+**Technical Skills**
+- *Programming Languages:* Python, Julia, R, Matlab  
+- *Machine Learning & Scientific Computing:* PyTorch, TensorFlow, SciPy  
+- *Optimization & Mathematical Programming:* Gurobi, CPLEX 
+  
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
 
