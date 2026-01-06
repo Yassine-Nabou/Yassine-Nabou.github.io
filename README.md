@@ -4,7 +4,15 @@ I specialize in bridging mathematical foundations with practical, high-performan
 
 I am interested in applying optimization-driven approaches to complex R&D challenges in areas such as AI, energy systems, and large-scale decision-making.
 
-Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).
+**Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).**
+
+
+## Education & Research Background
+
+I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
+
+I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](https://www.uca.ma) in 2016. I obtained a MSc degree in Applied mathematics from [Faculty of Science and Technology](https://www.fsts.ac.ma), Morocco in 2018.
+
 
 
 ## Area of intrerest:
@@ -25,12 +33,6 @@ I am broadly interested in exploring the following areas:
 - **Programming:** Python, Julia, R, MATLAB  
 - **Scientific Computing & Machine Learning:** SciPy, PyTorch, TensorFlow
   
-
-I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/blob/main/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
-
-
-I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](https://www.uca.ma) in 2016. I obtained a MSc degree in Applied mathematics from [Faculty of Science and Technology](https://www.fsts.ac.ma), Morocco in 2018.
-
 
 
 ## Publications:  
