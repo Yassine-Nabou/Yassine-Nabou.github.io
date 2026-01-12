@@ -29,12 +29,6 @@ I am broadly interested in exploring the following areas:
 - Distributed and federated learning
 - Communication- and computation-efficient algorithms
 
-### Technical Skills
-- **Programming:** Python, Julia, R, MATLAB  
-- **Scientific Computing & Machine Learning:** SciPy, PyTorch, TensorFlow
-  
-
-
 ## Publications:  
 
 #### 2025 
