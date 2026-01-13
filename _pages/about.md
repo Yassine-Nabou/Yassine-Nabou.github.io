@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Welcome to my webpage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -16,7 +16,7 @@ I am interested in applying optimization-driven approaches to complex R&D challe
 **Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).**
 
 
-## Education & Research Background
+## Education & Research Background:
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/files/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
 
