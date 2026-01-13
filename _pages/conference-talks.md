@@ -5,8 +5,6 @@ permalink: /conference-and-talks/
 author_profile: true
 ---
 
-## Talks & Conferences:
-
 - *June 29 - July 2, 2025*: **Nonmonotone linearized block coordinate descent methods for nonsmooth composite problems**, [EUROPT 2025](https://europt2025.org/#Social-Program), Southampton, UK.
 - *October 31, 2024*: **Higher-Order Methods for Composite Optimization with Application**, [MOP Research Seminar](https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml), Saarland University, Germany (online).  
 - *September 16, 2024*: **Efficient Algorithms for Composite Problems with Applications**, *ESAT KU Leuven*, Belgium, invited by [Hakan Ergun](https://scholar.google.com/citations?user=EGUrHGsAAAAJ&hl=en) (online).  
