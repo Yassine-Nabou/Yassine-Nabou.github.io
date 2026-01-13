@@ -25,7 +25,7 @@ author:
   avatar           : "photo_profile_nabou.jpg"
   name             : "Yassine Nabou"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral researcher <br> Department of Mathematics and Statistics <br> University of Helsinki"
+  bio              : "Postdoctoral researcher <br> University of Helsinki"
   location         : "Helsinki, Finland"
   employer         : #""
   uri              : # URL
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : #"yassinekamri"
+  github           : "yassinenabou"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
