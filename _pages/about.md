@@ -16,7 +16,7 @@ I am interested in applying optimization-driven approaches to complex R&D challe
 **Currently I am a postdoctoral researcher at university of Helsinki, Finland, working in the department of Mathematics and Statistics with [Tuomo Valkonen](https://tuomov.iki.fi).**
 
 
-## Education & Research Background:
+## Education & Research Background
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "[Higher-order methods for composite optimization and applications](https://github.com/Yassine-Nabou/Yassine-Nabou.github.io/files/Yassine_nabou_PHD.pdf)", focuses on advanced optimization techniques and their applications. 
 
@@ -24,17 +24,16 @@ I received a BSc degree in Applied Mathematics from [University Cadi Ayyad](http
 
 
 
-## Area of intrerest:
+## Area of interest
 I am broadly interested in exploring the following areas:
 
 ### Optimization
-- Efficient methods for convex and nonconvex optimization, including nonsmooth formulations
-- Structure-exploiting algorithms (e.g., sparsity and stochasticity)
-- Second- and higher-order optimization methods
-- Online optimization
+- Efficient convex and nonconvex optimization, including nonsmooth formulations
+- Structure-aware methods (composite objectives, sparsity, stochasticity)
+- Second- and higher-order methods, online optimization
 
 ### Machine Learning
-- Optimization methods for machine learning
-- Distributed and federated learning
+- Optimization for ML and AI
+- Distributed and federated learning (including Byzantine-resilient methods)
 - Communication- and computation-efficient algorithms
 
