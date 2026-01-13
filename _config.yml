@@ -11,33 +11,33 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Yassine Kamri"
 title_separator          : "-"
-name                     : &name "Yassine Kamri"
-description              : &description "PhD student at UCLouvain"
-url                      :  "https://yassinekamri.github.io" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Yassine Nabou"
+description              : &description "Postdoctoral researcher"
+url                      :  "https://Yassine-Nabou.github.io" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yassinekamri/yassinekamri.github.io"
+repository               : "Yassine-Nabou/Yassine-Nabou.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo_profile.png"
-  name             : "Yassine Kamri"
+  avatar           : "photo_profile_nabou.png"
+  name             : "Yassine Nabou"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student at UCLouvain"
-  location         : "Louvain-La-Neuve, Belgium"
-  employer         : "UCLouvain"
+  bio              : "Postdoctoral researcher at University of Helsinki"
+  location         : "Helsinki, Finland"
+  employer         : #""
   uri              : # URL
-  email            : "yassinekamri1996@gmail.com" 
+  email            : "yassin.nabou@helsinki.fi" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=xjz1raIAAAAJ&hl=fr&oi=ao"
+  googlescholar    : "https://scholar.google.com/citations?user=CZzmfnEAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : #"https://orcid.org/0009-0004-9805-8039"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/yassine-nabou-aba88114b/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
