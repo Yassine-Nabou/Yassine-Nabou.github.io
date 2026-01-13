@@ -22,7 +22,7 @@ repository               : "Yassine-Nabou/Yassine-Nabou.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo_profile_nabou.png"
+  avatar           : "photo_profile_nabou.jpg"
   name             : "Yassine Nabou"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher at University of Helsinki"
