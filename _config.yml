@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Yassine Kamri"
+title                    : "Yassine nabou"
 title_separator          : "-"
 name                     : &name "Yassine Nabou"
 description              : &description "Postdoctoral researcher"
-url                      :  "https://Yassine-Nabou.github.io" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : "https://Yassine-Nabou.github.io" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Yassine-Nabou/Yassine-Nabou.github.io"
 
@@ -22,7 +22,7 @@ repository               : "Yassine-Nabou/Yassine-Nabou.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "photo_profile_nabou.jpg"
+  avatar           : "images/photo_profile_nabou.jpg"
   name             : "Yassine Nabou"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher at University of Helsinki"
