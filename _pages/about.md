@@ -28,7 +28,7 @@ I am broadly interested in exploring the following areas:
 ### Optimization
 - Efficient convex and nonconvex optimization, including nonsmooth formulations
 - Structure-aware methods (composite objectives, sparsity, stochasticity)
-- Second- and higher-order methods, online optimization
+- Second- and higher-order methods, bilevel optimization, and online optimization
 
 ### Machine Learning
 - Optimization for ML and AI
