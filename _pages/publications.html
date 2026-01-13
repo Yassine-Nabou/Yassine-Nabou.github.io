@@ -5,32 +5,25 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h3>2025</h3>
+<ul>
+  <li><strong>Y. Nabou</strong>, <a href="https://scholar.google.com/citations?user=M5wTSqcAAAAJ&hl=en">Lahcen El Bourkhisi</a>, <a href="https://sstich.ch">Sebastian U. Stich</a>, <a href="https://tuomov.iki.fi">Tuomo Valkonen</a>, <em>Monotone and nonmonotone linearized block coordinate descent methods for nonsmooth composite optimization problems</em>, <a href="https://arxiv.org/abs/2506.12397">arXiv</a>.</li>
+  <li><strong>Y. Nabou</strong>, <em>Nonmonotone higher-order Taylor approximation methods for composite problems</em>, <a href="https://arxiv.org/abs/2503.01182">arXiv</a>.</li>
+</ul>
 
-{% include base_path %}
+<h3>2024</h3>
+<ul>
+  <li><strong>Y. Nabou</strong>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, <em>Regularized higher-order Taylor approximation methods for composite nonlinear least-squares</em>, <a href="https://arxiv.org/abs/2503.02370">arXiv</a>.</li>
+  <li><strong>Y. Nabou</strong>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, <em>Moving higher-order Taylor approximations method for smooth constrained minimization problems</em>, <em>SIAM Journal on Optimization</em> (accepted), <a href="https://arxiv.org/abs/2402.15022">arXiv</a>.</li>
+  <li><strong>Y. Nabou</strong>, <a href="https://perso.uclouvain.be/francois.glineur/">Francois Glineur</a>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, <em>Proximal gradient methods with inexact oracle of degree q for composite optimization</em>, <em>Optimization Letters</em>, <a href="https://link.springer.com/content/pdf/10.1007/s11590-024-02118-9.pdf">pdf</a>.</li>
+  <li><strong>Y. Nabou</strong>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, <em>Efficiency of higher-order algorithms for minimizing composite functions</em>, <em>Computational Optimization and Applications</em>, <a href="https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf">pdf</a>.</li>
+  <li><strong>Y. Nabou</strong>, <a href="https://scholar.google.fr/citations?user=H8ux6UMAAAAJ&hl=fr">Lucian Toma</a>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, <em>Modified projected Gauss-Newton method for constrained nonlinear least-squares: application to power flow analysis</em>, <em>European Control Conference</em>, <a href="https://ieeexplore.ieee.org/abstract/document/10178179">pdf</a>.</li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="wordwrap">
+  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+</div>
+
 
 
 
