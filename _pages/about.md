@@ -18,7 +18,7 @@ I am interested in applying optimization-driven approaches to complex R&D challe
 
 I defended my Ph.D thesis in May 2024, supervised by [Ion Necoara](https://acse.pub.ro/index.php/en/ion-necoara/), within the Marie Skłodowska-Curie Actions (MSCA) as an Early Stage Researcher, [TraDE-OPT H2020 ITN](https://trade-opt-itn.eu) project, as [ESR 10](https://trade-opt-itn.eu/ESRs/nabou). My thesis "Higher-order methods for composite optimization and applications"
 <a href="/files/Yassine_nabou_PHD.pdf" target="_blank">
-  <button>View my PhD Thesis (PDF)</button>
+  <button> PhD Thesis (PDF)</button>
 </a>
 , focuses on advanced optimization techniques and their applications. 
 
