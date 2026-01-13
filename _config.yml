@@ -25,9 +25,9 @@ author:
   avatar           : "photo_profile_nabou.jpg"
   name             : "Yassine Nabou"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral researcher <br> University of Helsinki"
+  bio              : "Postdoctoral researcher"
   location         : "Helsinki, Finland"
-  employer         : #""
+  employer         : "Department of Mathematics and Statistics, University of Helsinki"
   uri              : # URL
   email            : "yassin.nabou@helsinki.fi" 
 
