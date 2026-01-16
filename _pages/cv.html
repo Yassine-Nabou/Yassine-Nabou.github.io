@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "CV"
-#permalink: /cv-json/
+title: "Curriculum Vitae"
+permalink: /cv-yassine/
 author_profile: false
 redirect_from:
+  - /resume
   - /resume-json
 ---
 
@@ -19,7 +20,7 @@ redirect_from:
     float: none;
     padding-right: 0;
   }
-  
+
   @media (min-width: 80em) {
     .archive {
       width: 70%;
@@ -29,7 +30,8 @@ redirect_from:
 
 {% include cv-template.html %}
 
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv-yassine.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+<div class="cv-download-links" style="margin-top: 2em;">
+  <a href="{{ base_path }}/files/cv-yassine.pdf" class="btn btn--primary" target="_blank">
+    Download CV (PDF)
+  </a>
 </div>
