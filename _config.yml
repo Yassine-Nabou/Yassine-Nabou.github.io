@@ -26,7 +26,7 @@ author:
   name             : "Yassine Nabou"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher"
-  location: "Kumpula Campus<br>&nbsp;&nbsp;&nbsp;Office B326<br>&nbsp;&nbsp;&nbsp;Helsinki, Finland"
+  location         : "Kumpula Campus<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Office B326<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helsinki, Finland"
   employer         : "University of Helsinki"
   uri              : # URL
   email            : "yassin.nabou@helsinki.fi" 
