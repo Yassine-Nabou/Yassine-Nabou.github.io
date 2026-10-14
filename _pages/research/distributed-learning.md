@@ -286,25 +286,19 @@ I investigate these challenges through two complementary directions: Byzantine-r
 <h2>1. Byzantine-Resilient Federated Learning</h2>
 
 <p>
-Federated learning enables multiple clients to collaboratively train a model without sharing their local datasets. However, distributed training becomes more challenging when client data are heterogeneous or some participants send malicious or corrupted updates.
+Federated learning enables multiple clients to collaboratively train a model without sharing their local datasets. However, heterogeneous data and malicious or corrupted client updates can compromise the reliability of distributed training.
 </p>
 
 <p>
-My work explores Byzantine-resilient optimization methods that aim to maintain reliable learning in the presence of adversarial clients. I am particularly interested in aggregation rules, robust optimization algorithms, and the interaction between robustness and non-independent and identically distributed (non-IID) data.
+My research focuses on Byzantine-resilient optimization methods for reliable federated learning in the presence of adversarial clients.
 </p>
 
 <div class="research-highlight">
-<strong>Research questions</strong>
-<ul>
-<li>How can distributed optimization tolerate malicious or corrupted client updates?</li>
-<li>How do data heterogeneity and non-IID distributions affect robustness?</li>
-<li>How can robustness guarantees be combined with practical algorithmic efficiency?</li>
-</ul>
+  <strong>Research question</strong>
+  <ul>
+    <li>How can federated optimization remain robust to adversarial clients while handling heterogeneous data?</li>
+  </ul>
 </div>
-
-<p>
-This direction combines theoretical analysis with computational experiments to understand the strengths and limitations of robust aggregation methods in federated optimization.
-</p>
 
 <div class="research-links">
 <a href="{{ '/publications/' | relative_url }}">Related publications ↗</a>
@@ -314,32 +308,22 @@ This direction combines theoretical analysis with computational experiments to u
 
 <section class="research-topic" id="adaptive-ef">
 
-<h2>2. Trajectory-Adaptive Error Feedback</h2>
+<h2>2. Adaptive Error Feedback</h2>
 
 <p>
 Communication is a major bottleneck in distributed optimization. Gradient compression can reduce the amount of information exchanged between workers, but aggressive compression can also affect convergence.
 </p>
 
 <p>
-In my work on <strong>Trajectory-Adaptive Error Feedback (TA-EF)</strong>, I study communication-efficient optimization methods that adapt compression to the optimization trajectory. The approach relaxes the uniform contractive condition commonly used in error-feedback analyses and instead uses a pointwise relative-error condition.
-</p>
-
-<p>
-This provides a framework for adapting compression levels during optimization rather than requiring a fixed compression guarantee at every iteration. The goal is to improve communication efficiency while retaining rigorous convergence guarantees.
+Currently, I study communication-efficient optimization methods that adapt compression to the optimization trajectory.
 </p>
 
 <div class="research-highlight">
-<strong>Research questions</strong>
-<ul>
-<li>How can compression adapt to the behavior of an optimization algorithm?</li>
-<li>Can weaker, trajectory-dependent assumptions provide useful convergence guarantees?</li>
-<li>How can communication savings be balanced against optimization accuracy?</li>
-</ul>
+  <strong>Research question</strong>
+  <ul>
+    <li>How can compression adapt to the optimization trajectory while maintaining convergence guarantees?</li>
+  </ul>
 </div>
-
-<p>
-The work combines theoretical convergence analysis with numerical experiments to study the trade-offs between compression, communication, and optimization performance.
-</p>
 
 <div class="research-links">
 <a href="{{ '/publications/' | relative_url }}">Related publications ↗</a>
