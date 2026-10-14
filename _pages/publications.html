@@ -5,76 +5,351 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h3>2026</h3>
-<ul style="list-style-type: disc; padding-left: 20px;">
-    <li style="margin-bottom: 12px;">
-    <a href="https://scholar.google.com/citations?user=M67pnDwAAAAJ&hl=fi"> Jyrki Jauhiainen </a>, <strong> Y. Nabou</strong>, <a href="https://tuomov.iki.fi">Tuomo Valkonen</a>, 
-    <em>Dynamic inverse problems: Single-loop online algorithms</em>, 
-     [<a href="https://arxiv.org/abs/2606.10951">arXiv</a>,
-     <a href="https://zenodo.org/records/19154746">code</a>].    
-  </li>
-  <li style="margin-bottom: 12px;">
-    <a href="https://scholar.google.com/citations?user=M67pnDwAAAAJ&hl=fi"> Jyrki Jauhiainen </a>, <strong> Y. Nabou</strong>, <a href="https://tuomov.iki.fi">Tuomo Valkonen</a>, 
-    <em>Dynamic inverse problems: Online regularisation theory</em>, 
-     [<a href="https://arxiv.org/abs/2605.26022">arXiv</a>,
-     <a href="https://zenodo.org/records/19154746">code</a>].    
-  </li>
-</ul>
+<style>
+.publications-page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
-<h3>2025</h3>
-<ul style="list-style-type: disc; padding-left: 20px;">
-  <li style="margin-bottom: 12px;">
-    <strong>Y. Nabou</strong>, <a href="https://scholar.google.com/citations?user=M5wTSqcAAAAJ&hl=en">Lahcen El Bourkhisi</a>, <a href="https://sstich.ch">Sebastian U. Stich</a>, <a href="https://tuomov.iki.fi">Tuomo Valkonen</a>, 
-    <em>Monotone and nonmonotone linearized block coordinate descent methods for nonsmooth composite optimization problems</em>, 
-     [<a href="https://link.springer.com/article/10.1007/s10957-026-03120-0">JOTA</a>,
-      <a href="https://arxiv.org/abs/2506.12397">arXiv</a>].
-     
-  </li>
-  <li style="margin-bottom: 12px;">
-    <strong>Y. Nabou</strong>, <em>Nonmonotone higher-order Taylor approximation methods for composite problems</em>, 
-     [<a href="https://arxiv.org/abs/2503.01182">arXiv</a>].
-  </li>
-</ul>
+.publications-year {
+  font-size: 2em;
+  font-weight: 300;
+  color: #a0a0a0;
+  text-align: right;
+  margin: 0.8em 0 0.5em;
+  border: none;
+}
 
-<h3>2024</h3>
-<ul style="list-style-type: disc; padding-left: 20px;">
-  <li style="margin-bottom: 12px;">
-    <strong>Y. Nabou</strong>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, 
-    <em>Regularized higher-order Taylor approximation methods for composite nonlinear least-squares</em>, 
-    [<a href="https://arxiv.org/abs/2503.02370">arXiv</a>].
-  </li>
-<li style="margin-bottom: 12px;">
-  <strong>Y. Nabou</strong>, 
-  <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, 
-  <em>Moving higher-order Taylor approximations method for smooth constrained minimization problems</em>, 
-  [<a href="https://epubs.siam.org/doi/10.1137/23M1576852">SIAM J. Optim</a>, 
-  <a href="https://arxiv.org/abs/2402.15022">arXiv</a>].
-</li>
-  <li style="margin-bottom: 12px;">
-    <strong>Y. Nabou</strong>, <a href="https://perso.uclouvain.be/francois.glineur/">Francois Glineur</a>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, 
-    <em>Proximal gradient methods with inexact oracle of degree q for composite optimization</em>, 
-    [<a href="https://link.springer.com/content/pdf/10.1007/s11590-024-02118-9.pdf">Optim. Lett</a>,
-     <a href="https://arxiv.org/abs/2401.10624">arXiv</a>].
-  </li>
-  <li style="margin-bottom: 12px;">
-    <strong>Y. Nabou</strong>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, 
-    <em>Efficiency of higher-order algorithms for minimizing composite functions</em>, 
-    [<a href="https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf">COAP</a>,
-    <a href="https://arxiv.org/abs/2203.13367">arXiv</a>].
-  </li>
-  <li style="margin-bottom: 12px;">
-    <strong>Y. Nabou</strong>, <a href="https://scholar.google.fr/citations?user=H8ux6UMAAAAJ&hl=fr">Lucian Toma</a>, <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>, 
-    <em>Modified projected Gauss-Newton method for constrained nonlinear least-squares: application to power flow analysis</em>,  
-    [<a href="https://ieeexplore.ieee.org/abstract/document/10178179">ECC</a>,
-     <a href="https://arxiv.org/abs/2504.00783">arXiv</a>].
-  </li>
-</ul>
+.publication {
+  display: grid;
+  grid-template-columns: 155px minmax(0, 1fr);
+  column-gap: 28px;
+  align-items: start;
+  margin: 0 0 2.2em;
+}
 
-<div style="margin-top: 30px;" class="wordwrap">
-  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+.publication-venue {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.35em 0.55em;
+  border-radius: 6px;
+  background: #3289b1;
+  color: #fff;
+  font-size: 0.88em;
+  font-weight: 700;
+  line-height: 1.4;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.publication-title {
+  display: inline-block;
+  color: #3289b1;
+  font-size: 1.08em;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: -0.15em 0 0.25em;
+  text-decoration: none;
+}
+
+.publication-title:hover {
+  text-decoration: underline;
+}
+
+.publication-authors {
+  font-size: 0.98em;
+  line-height: 1.55;
+  margin-bottom: 0.2em;
+}
+
+.publication-venue-details {
+  font-size: 0.96em;
+  line-height: 1.5;
+  margin-bottom: 0.55em;
+}
+
+.publication-venue-details em {
+  font-style: italic;
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 0.45em;
+}
+
+.publication-links a {
+  display: inline-block;
+  min-width: 54px;
+  padding: 0.35em 0.8em;
+  text-align: center;
+  border: 1.5px solid currentColor;
+  border-radius: 3px;
+  color: inherit;
+  font-size: 0.78em;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.35;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.publication-links a:hover {
+  background: #3289b1;
+  border-color: #3289b1;
+  color: #fff;
+}
+
+.publication-year-section {
+  margin-bottom: 2.4em;
+}
+
+.publication-year-section h2 {
+  display: none;
+}
+
+.publications-footer {
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px solid #e5e7eb;
+}
+
+@media (max-width: 650px) {
+  .publication {
+    grid-template-columns: 1fr;
+    row-gap: 0.8em;
+    margin-bottom: 2em;
+  }
+
+  .publication-venue {
+    width: auto;
+    max-width: 180px;
+    min-width: 110px;
+  }
+
+  .publications-year {
+    font-size: 1.7em;
+  }
+
+  .publication-title {
+    font-size: 1.03em;
+  }
+}
+</style>
+
+<div class="publications-page">
+
+  <h2 class="publications-year">2026</h2>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">Preprint</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://arxiv.org/abs/2606.10951">
+        Dynamic Inverse Problems: Single-Loop Online Algorithms
+      </a>
+      <div class="publication-authors">
+        <a href="https://scholar.google.com/citations?user=M67pnDwAAAAJ&amp;hl=fi">Jyrki Jauhiainen</a>,
+        <strong>Y. Nabou</strong>, and
+        <a href="https://tuomov.iki.fi">Tuomo Valkonen</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>arXiv preprint</em>, 2026
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2606.10951">arXiv</a>
+        <a href="https://zenodo.org/records/19154746">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">Preprint</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://arxiv.org/abs/2605.26022">
+        Dynamic Inverse Problems: Online Regularisation Theory
+      </a>
+      <div class="publication-authors">
+        <a href="https://scholar.google.com/citations?user=M67pnDwAAAAJ&amp;hl=fi">Jyrki Jauhiainen</a>,
+        <strong>Y. Nabou</strong>, and
+        <a href="https://tuomov.iki.fi">Tuomo Valkonen</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>arXiv preprint</em>, 2026
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2605.26022">arXiv</a>
+        <a href="https://zenodo.org/records/19154746">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="publications-year">2025</h2>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">JOTA</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://link.springer.com/article/10.1007/s10957-026-03120-0">
+        Monotone and Nonmonotone Linearized Block Coordinate Descent Methods for Nonsmooth Composite Optimization Problems
+      </a>
+      <div class="publication-authors">
+        <strong>Y. Nabou</strong>,
+        <a href="https://scholar.google.com/citations?user=M5wTSqcAAAAJ&amp;hl=en">Lahcen El Bourkhisi</a>,
+        <a href="https://sstich.ch">Sebastian U. Stich</a>, and
+        <a href="https://tuomov.iki.fi">Tuomo Valkonen</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>Journal of Optimization Theory and Applications</em>, 2026
+      </div>
+      <div class="publication-links">
+        <a href="https://link.springer.com/article/10.1007/s10957-026-03120-0">Paper</a>
+        <a href="https://arxiv.org/abs/2506.12397">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">Preprint</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://arxiv.org/abs/2503.01182">
+        Nonmonotone Higher-Order Taylor Approximation Methods for Composite Problems
+      </a>
+      <div class="publication-authors">
+        <strong>Y. Nabou</strong>
+      </div>
+      <div class="publication-venue-details">
+        <em>arXiv preprint</em>, 2025
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2503.01182">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="publications-year">2024</h2>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">Preprint</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://arxiv.org/abs/2503.02370">
+        Regularized Higher-Order Taylor Approximation Methods for Composite Nonlinear Least-Squares
+      </a>
+      <div class="publication-authors">
+        <strong>Y. Nabou</strong> and
+        <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>arXiv preprint</em>, 2025
+      </div>
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2503.02370">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">SIAM J. Optim.</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://epubs.siam.org/doi/10.1137/23M1576852">
+        Moving Higher-Order Taylor Approximation Methods for Smooth Constrained Minimization Problems
+      </a>
+      <div class="publication-authors">
+        <strong>Y. Nabou</strong> and
+        <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>SIAM Journal on Optimization</em>, 2026
+      </div>
+      <div class="publication-links">
+        <a href="https://epubs.siam.org/doi/10.1137/23M1576852">Paper</a>
+        <a href="https://arxiv.org/abs/2402.15022">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">Optim. Lett.</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://link.springer.com/content/pdf/10.1007/s11590-024-02118-9.pdf">
+        Proximal Gradient Methods with Inexact Oracle of Degree q for Composite Optimization
+      </a>
+      <div class="publication-authors">
+        <strong>Y. Nabou</strong>,
+        <a href="https://perso.uclouvain.be/francois.glineur/">François Glineur</a>, and
+        <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>Optimization Letters</em>, 2024
+      </div>
+      <div class="publication-links">
+        <a href="https://link.springer.com/content/pdf/10.1007/s11590-024-02118-9.pdf">Paper</a>
+        <a href="https://arxiv.org/abs/2401.10624">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">COAP</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf">
+        Efficiency of Higher-Order Algorithms for Minimizing Composite Functions
+      </a>
+      <div class="publication-authors">
+        <strong>Y. Nabou</strong> and
+        <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>Computational Optimization and Applications</em>, 2024
+      </div>
+      <div class="publication-links">
+        <a href="https://link.springer.com/content/pdf/10.1007/s10589-023-00533-9.pdf">Paper</a>
+        <a href="https://arxiv.org/abs/2203.13367">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication">
+    <div>
+      <span class="publication-venue">ECC</span>
+    </div>
+    <div>
+      <a class="publication-title" href="https://ieeexplore.ieee.org/abstract/document/10178179">
+        Modified Projected Gauss–Newton Method for Constrained Nonlinear Least-Squares: Application to Power Flow Analysis
+      </a>
+      <div class="publication-authors">
+        <strong>Y. Nabou</strong>,
+        <a href="https://scholar.google.fr/citations?user=H8ux6UMAAAAJ&amp;hl=fr">Lucian Toma</a>, and
+        <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>
+      </div>
+      <div class="publication-venue-details">
+        <em>European Control Conference (ECC)</em>, 2023
+      </div>
+      <div class="publication-links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10178179">Paper</a>
+        <a href="https://arxiv.org/abs/2504.00783">arXiv</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="publications-footer wordwrap">
+    You can also find my complete publication list on
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  </div>
+
 </div>
-
-
-
-
-
