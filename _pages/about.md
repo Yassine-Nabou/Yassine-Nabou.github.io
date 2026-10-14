@@ -83,20 +83,27 @@ redirect_from:
 }
 
 .home-research-card {
+  display: block;
   padding: 1.2em;
   border: 1px solid #e1e7ed;
   border-radius: 8px;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: border-color 0.2s ease, transform 0.2s ease,
+              box-shadow 0.2s ease;
 }
 
-.home-research-card:hover {
+.home-research-card:hover,
+.home-research-card:focus {
   border-color: #8bbbd1;
   transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(30, 70, 90, 0.08);
 }
 
 .home-research-card h3 {
   font-size: 1.08em;
   margin: 0 0 0.5em;
+  color: #3289b1;
 }
 
 .home-research-card p {
@@ -110,14 +117,12 @@ redirect_from:
   line-height: 1.3;
 }
 
-.home-education {
-  padding-left: 1.1em;
-  border-left: 3px solid #dce7ef;
-  margin: 1.4em 0;
-}
-
-.home-education p {
-  margin: 0.35em 0;
+.home-card-footer {
+  display: block;
+  margin-top: 0.8em;
+  color: #3289b1;
+  font-size: 0.88em;
+  font-weight: 600;
 }
 
 .home-links {
@@ -136,7 +141,8 @@ redirect_from:
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
-.home-link-card:hover {
+.home-link-card:hover,
+.home-link-card:focus {
   border-color: #8bbbd1;
   transform: translateY(-2px);
 }
@@ -153,6 +159,16 @@ redirect_from:
   color: #64748b;
 }
 
+.home-phd {
+  padding-left: 1.1em;
+  border-left: 3px solid #dce7ef;
+  margin: 1.4em 0;
+}
+
+.home-phd p {
+  margin: 0.35em 0;
+}
+
 .home-thesis-link {
   display: inline-block;
   padding: 0.1em 0.55em;
@@ -167,10 +183,7 @@ redirect_from:
     font-size: 1.8em;
   }
 
-  .home-research-grid {
-    grid-template-columns: 1fr;
-  }
-
+  .home-research-grid,
   .home-links {
     grid-template-columns: 1fr;
   }
@@ -215,91 +228,90 @@ redirect_from:
     <h2>Research Interests</h2>
     <p class="home-section-intro">
       My research combines optimization theory, algorithm design, and
-      computational methods. My main interests include:
+      computational methods. Select a topic to learn more about my work,
+      related publications, and research projects.
     </p>
 
     <div class="home-research-grid">
 
-      <div class="home-research-card">
+      <a class="home-research-card"
+         href="{{ '/research/optimization/' | relative_url }}">
         <div class="home-card-icon" aria-hidden="true">∇</div>
         <h3>Optimization Algorithms</h3>
         <p>
           Convex and nonconvex optimization, nonsmooth composite problems,
           constrained optimization, and second- and higher-order methods.
         </p>
-      </div>
+        <span class="home-card-footer">Explore this topic ↗</span>
+      </a>
 
-      <div class="home-research-card">
+      <a class="home-research-card"
+         href="{{ '/research/machine-learning/' | relative_url }}">
         <div class="home-card-icon" aria-hidden="true">◇</div>
         <h3>Optimization for Machine Learning</h3>
         <p>
           Optimization methods for machine learning and AI, with an emphasis
           on algorithmic efficiency, adaptivity, and theoretical guarantees.
         </p>
-      </div>
+        <span class="home-card-footer">Explore this topic ↗</span>
+      </a>
 
-      <div class="home-research-card">
+      <a class="home-research-card"
+         href="{{ '/research/distributed-learning/' | relative_url }}">
         <div class="home-card-icon" aria-hidden="true">⇄</div>
         <h3>Distributed and Federated Learning</h3>
         <p>
           Communication-efficient optimization, distributed algorithms,
           and robust learning in heterogeneous and adversarial environments.
         </p>
-      </div>
+        <span class="home-card-footer">Explore this topic ↗</span>
+      </a>
 
-      <div class="home-research-card">
+      <a class="home-research-card"
+         href="{{ '/research/inverse-problems/' | relative_url }}">
         <div class="home-card-icon" aria-hidden="true">⌘</div>
         <h3>Inverse Problems and Scientific Computing</h3>
         <p>
           Optimization methods for inverse problems, dynamic systems,
           and large-scale computational applications.
         </p>
-      </div>
+        <span class="home-card-footer">Explore this topic ↗</span>
+      </a>
 
     </div>
   </section>
 
   <section class="home-section" id="education">
-    <h2>Education</h2>
+    <h2>Academic Background</h2>
 
-    <div class="home-education">
-      <p><strong>Ph.D. in Automatic Control and Systems Engineering</strong></p>
-      <p>May 2024 · National University of Science and Technology POLITEHNICA Bucharest</p>
+    <div class="home-phd">
       <p>
-        Dissertation:
-        <em>Higher-Order Methods for Composite Optimization and Applications</em>
+        I received my Ph.D. in Automatic Control and Systems Engineering
+        in May 2024, under the supervision of
+        <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>,
+        at the National University of Science and Technology POLITEHNICA Bucharest.
       </p>
       <p>
-        Supervisor: <a href="https://acse.pub.ro/index.php/en/ion-necoara/">Ion Necoara</a>
+        My doctoral research was conducted within the Marie Skłodowska-Curie
+        <a href="https://trade-opt-itn.eu">TraDE-OPT H2020 Innovative Training Network</a>,
+        where I was an Early Stage Researcher (ESR10).
       </p>
       <p>
         <a class="home-thesis-link"
            href="{{ '/files/Yassine_nabou_PHD.pdf' | relative_url }}"
            target="_blank" rel="noopener">
-          Download PhD Thesis (PDF) ↗
+          Read my Ph.D. thesis (PDF) ↗
         </a>
+        &nbsp;
+        <a href="{{ '/cv-yassine/' | relative_url }}">Full academic CV ↗</a>
       </p>
-      <p>
-        Marie Skłodowska-Curie Early Stage Researcher (ESR10) within the
-        <a href="https://trade-opt-itn.eu">TraDE-OPT H2020 Innovative Training Network</a>.
-      </p>
-    </div>
-
-    <div class="home-education">
-      <p><strong>M.Sc. in Mathematics and Computer Science</strong></p>
-      <p>2016–2018 · Faculty of Science and Technology Settat, Hassan I University, Morocco</p>
-    </div>
-
-    <div class="home-education">
-      <p><strong>B.Sc. in Mathematics and Computer Science</strong></p>
-      <p>2012–2016 · Faculty of Science Semlalia, Cadi Ayyad University, Morocco</p>
     </div>
   </section>
 
   <section class="home-section" id="explore">
     <h2>Explore My Work</h2>
     <p class="home-section-intro">
-      Learn more about my research, academic activities, and background.
+      Browse my publications, academic presentations, and professional background.
     </p>
 
     <div class="home-links">
