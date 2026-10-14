@@ -213,7 +213,7 @@ My research in distributed and federated learning focuses on developing efficien
 </p>
 
 <p>
-I investigate these challenges through two complementary directions: Byzantine-resilient federated learning and communication-efficient optimization using Trajectory-Adaptive Error Feedback (TA-EF).
+I investigate these challenges through two complementary directions: Byzantine-resilient federated learning and communication-efficient optimization using Adaptive Error Feedback.
 </p>
 
 <div class="fl-diagram">
