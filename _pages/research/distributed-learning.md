@@ -192,7 +192,7 @@
     </div>
 
     <div class="direction">
-      <strong>02 · Trajectory-Adaptive Error Feedback</strong>
+      <strong>02 · Adaptive Error Feedback</strong>
       <p>
         Communication-efficient optimization through adaptive
         compression and error feedback, reducing communication
