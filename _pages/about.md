@@ -19,10 +19,10 @@ redirect_from:
 }
 
 .home-hero h1 {
-  font-size: 2.15em;
-  line-height: 1.2;
+  font-size: 1.8em;
+  line-height: 1.3;
   margin: 0 0 0.65em;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
 }
 
 .home-lead {
@@ -184,7 +184,7 @@ redirect_from:
 <div class="home-page">
 
   <section class="home-hero">
-    <h1>Mathematical Optimization &amp; Machine Learning</h1>
+    <h1>Welcome to my personal webpage</h1>
 
     <p class="home-lead">
       I am a researcher working at the intersection of mathematical
