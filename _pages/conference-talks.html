@@ -5,58 +5,275 @@ permalink: /conference-and-talks/
 author_profile: true
 ---
 
+<style>
+.talks-page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
-<ul style="list-style-type: disc; padding-left: 20px;">
-  
-  <li style="margin-bottom: 12px;">
-    <em>September 25, 2026</em>: <strong>Nonmonotone linearized block coordinate descent methods for nonsmooth composite problems</strong>,
-    <em>Department of Mathematics and Scientific Computing, University of Graz, Austria</em>, invited by
-    <a href="https://imsc.uni-graz.at/clason/">Christian Clason</a>.
-  </li>
-  
-  <li style="margin-bottom: 12px;">
-    <em>June 29 - July 2, 2025</em>: <strong>Nonmonotone linearized block coordinate descent methods for nonsmooth composite problems</strong>, 
-    <a href="https://europt2025.org/#Social-Program">EUROPT 2025</a>, Southampton, UK.
-  </li>
+.talks-section {
+  margin-bottom: 3em;
+}
 
-  <li style="margin-bottom: 12px;">
-    <em>October 31, 2024</em>: <strong>Higher-Order Methods for Composite Optimization with Application</strong>, 
-    <a href="https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml">MOP Research Seminar</a>, Saarland University, Germany (online).
-  </li>
+.talks-section h2 {
+  font-size: 1.45em;
+  margin: 1.5em 0 1.3em;
+  padding-bottom: 0.45em;
+  border-bottom: 1px solid #e5e7eb;
+}
 
-  <li style="margin-bottom: 12px;">
-    <em>September 16, 2024</em>: <strong>Efficient Algorithms for Composite Problems with Applications</strong>, 
-    <em>ESAT KU Leuven</em>, Belgium, invited by 
-    <a href="https://scholar.google.com/citations?user=EGUrHGsAAAAJ&hl=en">Hakan Ergun</a> (online).
-  </li>
+.talk-entry {
+  display: grid;
+  grid-template-columns: 155px minmax(0, 1fr);
+  column-gap: 28px;
+  align-items: start;
+  margin-bottom: 2.2em;
+}
 
-  <li style="margin-bottom: 12px;">
-    <em>January 23 - 26, 2024</em>: <strong>Moving Higher-Order Taylor Approximations Method for Smooth Constrained Minimization Problems</strong>, 
-    <em>Workshop on Analysis and Potential</em>, 
-    <a href="http://imar.ro/~imar/2024/Conferinte/APBucur/Abstracts.pdf">event website</a>, Bucharest, Romania.
-  </li>
+.talk-type {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.35em 0.55em;
+  border-radius: 6px;
+  background: #3289b1;
+  color: #fff;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1.4;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
 
-  <li style="margin-bottom: 12px;">
-    <em>September 29 - 30, 2023</em>: <strong>Moving Higher-Order Taylor Approximations Method for Smooth Constrained Minimization Problems</strong>, 
-    <em>Conference on Statistical Modeling with Applications</em>, 
-    <a href="https://statmod2023.sciencesconf.org/?lang=en">event website</a>, Bucharest, Romania.
-  </li>
+.talk-title {
+  display: block;
+  color: #3289b1;
+  font-size: 1.08em;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: -0.15em 0 0.4em;
+}
 
-  <li style="margin-bottom: 12px;">
-    <em>June 13 - 16, 2023</em>: <strong>Modified Projected Gauss-Newton Method for Constrained Nonlinear Least-Squares: Application to Power Flow Analysis</strong>, 
-    <em>European Control Conference (ECC23)</em>, 
-    <a href="https://ecc23.euca-ecc.org/index.html">conference website</a>, Bucharest, Romania.
-  </li>
+.talk-date {
+  font-size: 0.94em;
+  margin-bottom: 0.2em;
+}
 
-  <li style="margin-bottom: 12px;">
-    <em>July 4 - 8, 2022</em>: <strong>Efficient Optimization Methods for Complex Systems</strong>, 
-    <em>Workshop on Algorithmic and Continuous Optimization</em>, 
-    <a href="https://trade-opt-itn.eu/workshop.html">event website</a>, UCLouvain, Belgium.
-  </li>
+.talk-venue {
+  font-size: 0.96em;
+  line-height: 1.6;
+}
 
-  <li style="margin-bottom: 12px;">
-    <em>August 24, 2021</em>: <strong>Higher-Order Algorithms for Composite Minimization Problems</strong>, 
-    <em>MaLGa Machine Learning Genoa Center</em>, Italy, invited by 
-    <a href="https://dima.unige.it/~villa">Silvia Villa</a> (online).
-  </li>
-</ul>
+.talk-venue em {
+  font-style: italic;
+}
+
+.talk-details {
+  font-size: 0.92em;
+  margin-top: 0.35em;
+}
+
+.talk-details a {
+  white-space: normal;
+}
+
+@media (max-width: 650px) {
+  .talk-entry {
+    grid-template-columns: 1fr;
+    row-gap: 0.8em;
+    margin-bottom: 2em;
+  }
+
+  .talk-type {
+    width: auto;
+    max-width: 180px;
+    min-width: 110px;
+  }
+
+  .talks-section h2 {
+    font-size: 1.3em;
+  }
+
+  .talk-title {
+    font-size: 1.03em;
+  }
+}
+</style>
+
+<div class="talks-page">
+
+  <section class="talks-section">
+    <h2>Invited Talks and Seminars</h2>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">INVITED TALK</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Nonmonotone Linearized Block Coordinate Descent Methods for Nonsmooth Composite Problems
+        </div>
+        <div class="talk-date">September 25, 2026</div>
+        <div class="talk-venue">
+          Department of Mathematics and Scientific Computing,
+          University of Graz, Austria
+        </div>
+        <div class="talk-details">
+          Invited by
+          <a href="https://imsc.uni-graz.at/clason/">Christian Clason</a>.
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">SEMINAR</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Higher-Order Methods for Composite Optimization with Application
+        </div>
+        <div class="talk-date">October 31, 2024</div>
+        <div class="talk-venue">
+          <a href="https://www.mop.uni-saarland.de/teaching/MOPResearchSeminar/index.shtml">MOP Research Seminar</a>,
+          Saarland University, Germany · Online
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">INVITED TALK</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Efficient Algorithms for Composite Problems with Applications
+        </div>
+        <div class="talk-date">September 16, 2024</div>
+        <div class="talk-venue">
+          ESAT, KU Leuven, Belgium · Online
+        </div>
+        <div class="talk-details">
+          Invited by
+          <a href="https://scholar.google.com/citations?user=EGUrHGsAAAAJ&amp;hl=en">Hakan Ergun</a>.
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">INVITED TALK</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Higher-Order Algorithms for Composite Minimization Problems
+        </div>
+        <div class="talk-date">August 24, 2021</div>
+        <div class="talk-venue">
+          MaLGa Machine Learning Genoa Center, Italy · Online
+        </div>
+        <div class="talk-details">
+          Invited by
+          <a href="https://dima.unige.it/~villa">Silvia Villa</a>.
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="talks-section">
+    <h2>Conference and Workshop Presentations</h2>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">CONFERENCE</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Nonmonotone Linearized Block Coordinate Descent Methods for Nonsmooth Composite Problems
+        </div>
+        <div class="talk-date">June 29 – July 2, 2025</div>
+        <div class="talk-venue">
+          <a href="https://europt2025.org/#Social-Program">EUROPT 2025</a>,
+          Southampton, United Kingdom
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">WORKSHOP</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Moving Higher-Order Taylor Approximations Method for Smooth Constrained Minimization Problems
+        </div>
+        <div class="talk-date">January 23–26, 2024</div>
+        <div class="talk-venue">
+          Workshop on Analysis and Potential, Bucharest, Romania
+        </div>
+        <div class="talk-details">
+          <a href="http://imar.ro/~imar/2024/Conferinte/APBucur/Abstracts.pdf">Event website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">CONFERENCE</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Moving Higher-Order Taylor Approximations Method for Smooth Constrained Minimization Problems
+        </div>
+        <div class="talk-date">September 29–30, 2023</div>
+        <div class="talk-venue">
+          Conference on Statistical Modeling with Applications,
+          Bucharest, Romania
+        </div>
+        <div class="talk-details">
+          <a href="https://statmod2023.sciencesconf.org/?lang=en">Event website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">CONFERENCE</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Modified Projected Gauss–Newton Method for Constrained Nonlinear Least-Squares: Application to Power Flow Analysis
+        </div>
+        <div class="talk-date">June 13–16, 2023</div>
+        <div class="talk-venue">
+          European Control Conference (ECC23), Bucharest, Romania
+        </div>
+        <div class="talk-details">
+          <a href="https://ecc23.euca-ecc.org/index.html">Conference website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="talk-entry">
+      <div>
+        <span class="talk-type">WORKSHOP</span>
+      </div>
+      <div>
+        <div class="talk-title">
+          Efficient Optimization Methods for Complex Systems
+        </div>
+        <div class="talk-date">July 4–8, 2022</div>
+        <div class="talk-venue">
+          Workshop on Algorithmic and Continuous Optimization,
+          UCLouvain, Belgium
+        </div>
+        <div class="talk-details">
+          <a href="https://trade-opt-itn.eu/workshop.html">Event website</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</div>
