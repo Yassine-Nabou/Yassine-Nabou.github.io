@@ -307,34 +307,4 @@ redirect_from:
       </p>
     </div>
   </section>
-
-  <section class="home-section" id="explore">
-    <h2>Explore My Work</h2>
-    <p class="home-section-intro">
-      Browse my publications, academic presentations, and professional background.
-    </p>
-
-    <div class="home-links">
-
-      <a class="home-link-card"
-         href="{{ '/publications/' | relative_url }}">
-        <strong>Publications ↗</strong>
-        <span>Journal articles, conference papers, and preprints.</span>
-      </a>
-
-      <a class="home-link-card"
-         href="{{ '/conference-and-talks/' | relative_url }}">
-        <strong>Talks and Conferences ↗</strong>
-        <span>Invited seminars, workshops, and conference presentations.</span>
-      </a>
-
-      <a class="home-link-card"
-         href="{{ '/cv-yassine/' | relative_url }}">
-        <strong>Curriculum Vitae ↗</strong>
-        <span>Professional experience, education, and academic background.</span>
-      </a>
-
-    </div>
-  </section>
-
 </div>
